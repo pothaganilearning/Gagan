@@ -52,3 +52,17 @@
 #download-btn:hover {
     background-color: #45a049;
 }
+
+.question-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.question-item li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.question-item li input {
+    margin-right: 10px;
+}
