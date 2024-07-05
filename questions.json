@@ -1,128 +1,363 @@
 [
     {
         "question": "Which of the following is an irrational number?",
-        "options": ["4", "3", "52", "23"],
-        "correct_answer": "23",
-        "reason": "23 is not a perfect square and cannot be expressed as a simple fraction, making it an irrational number."
+        "options": ["4", "3", "√2", "5"],
+        "correct_answer": "√2",
+        "reason": "√2 cannot be expressed as a simple fraction, making it an irrational number."
+    },
+    {
+        "question": "What is the value of √16?",
+        "options": ["2", "3", "4", "5"],
+        "correct_answer": "4",
+        "reason": "The square root of 16 is 4."
+    },
+    {
+        "question": "Which of the following fractions is a rational number?",
+        "options": ["√3", "2/3", "π", "√7"],
+        "correct_answer": "2/3",
+        "reason": "2/3 is a rational number as it can be expressed as a ratio of two integers."
+    },
+    {
+        "question": "The decimal expansion of 1/3 is:",
+        "options": ["0.3", "0.33", "0.333...", "0.3333"],
+        "correct_answer": "0.333...",
+        "reason": "The decimal expansion of 1/3 is a repeating decimal 0.333..."
+    },
+    {
+        "question": "Which of the following numbers is a perfect square?",
+        "options": ["20", "36", "50", "75"],
+        "correct_answer": "36",
+        "reason": "36 is a perfect square as it can be expressed as 6^2."
+    },
+    {
+        "question": "What is the product of rational numbers?",
+        "options": ["Always rational", "Always irrational", "Sometimes rational", "None of the above"],
+        "correct_answer": "Always rational",
+        "reason": "The product of two rational numbers is always a rational number."
+    },
+    {
+        "question": "What is the LCM of 4 and 6?",
+        "options": ["12", "24", "36", "48"],
+        "correct_answer": "12",
+        "reason": "The least common multiple of 4 and 6 is 12."
+    },
+    {
+        "question": "Which of the following is the HCF of 18 and 24?",
+        "options": ["2", "3", "6", "12"],
+        "correct_answer": "6",
+        "reason": "The highest common factor of 18 and 24 is 6."
+    },
+    {
+        "question": "The decimal expansion of 7/8 is:",
+        "options": ["0.875", "0.888", "0.785", "0.978"],
+        "correct_answer": "0.875",
+        "reason": "The decimal expansion of 7/8 is 0.875."
     },
     {
         "question": "Which of the following is a rational number?",
-        "options": ["2−3", "2+3", "4−25", "5−9"],
-        "correct_answer": "4−25",
-        "reason": "4−25 is a rational number because it can be expressed as a fraction."
+        "options": ["√2", "π", "4", "e"],
+        "correct_answer": "4",
+        "reason": "4 is a rational number as it can be expressed as a ratio of two integers."
     },
     {
-        "question": "The rational number that lies in between 2 and 3 is:",
-        "options": ["32", "52", "12", "1"],
-        "correct_answer": "32",
-        "reason": "32 (1.5) lies between 2 and 3 on the number line."
+        "question": "Which of the following numbers is an irrational number?",
+        "options": ["1.414", "2.236", "√5", "4.2"],
+        "correct_answer": "√5",
+        "reason": "√5 is an irrational number as it cannot be expressed as a simple fraction."
     },
     {
-        "question": "Which of the following rational numbers does not lie between 12 and 1?",
-        "options": ["35", "710", "34", "65"],
-        "correct_answer": "65",
-        "reason": "65 (1.2) does not lie between 0.5 and 1 on the number line."
+        "question": "What is the LCM of 15 and 25?",
+        "options": ["50", "75", "100", "125"],
+        "correct_answer": "75",
+        "reason": "The least common multiple of 15 and 25 is 75."
     },
     {
-        "question": "Which of the following is not a factor of rational number 5005?",
-        "options": ["11", "7", "5", "3"],
-        "correct_answer": "3",
-        "reason": "5005 is not divisible by 3."
+        "question": "What is the value of √49?",
+        "options": ["6", "7", "8", "9"],
+        "correct_answer": "7",
+        "reason": "The square root of 49 is 7."
     },
     {
-        "question": "The product of prime factors of 3825 is:",
-        "options": ["32×52×17", "32×53×13", "33×52×17", "33×51×7"],
-        "correct_answer": "33×52×17",
-        "reason": "The prime factorization of 3825 is 3^3 * 5^2 * 17."
+        "question": "Which of the following is a rational number?",
+        "options": ["√3", "π", "0.5", "√7"],
+        "correct_answer": "0.5",
+        "reason": "0.5 is a rational number as it can be expressed as a ratio of two integers."
     },
     {
-        "question": "If 8232=21×3×7∗ then the value of n is:",
-        "options": ["1", "2", "3", "4"],
-        "correct_answer": "1",
-        "reason": "Solving for n in the given equation results in n = 1."
+        "question": "The decimal expansion of 2/5 is:",
+        "options": ["0.4", "0.45", "0.5", "0.55"],
+        "correct_answer": "0.4",
+        "reason": "The decimal expansion of 2/5 is 0.4."
     },
     {
-        "question": "If 156=22×3×k then the value of k is:",
-        "options": ["5", "7", "13", "11"],
-        "correct_answer": "13",
-        "reason": "Solving for k in the prime factorization of 156 gives k = 13."
+        "question": "Which of the following numbers is a perfect square?",
+        "options": ["15", "20", "25", "30"],
+        "correct_answer": "25",
+        "reason": "25 is a perfect square as it can be expressed as 5^2."
     },
     {
-        "question": "The H.C.F of 23×32×5 and 22×33×52 is:",
-        "options": ["21×31×52", "21×32×5", "21×32×5", "2×3×5"],
-        "correct_answer": "21×32×5",
-        "reason": "The highest common factor is the product of the lowest powers of all common prime factors."
+        "question": "What is the HCF of 14 and 21?",
+        "options": ["3", "5", "7", "10"],
+        "correct_answer": "7",
+        "reason": "The highest common factor of 14 and 21 is 7."
     },
     {
-        "question": "The H.C.F of 120150 and 210 is k2−6 then the value of k is:",
-        "options": ["6", "9", "36", "30"],
-        "correct_answer": "6",
-        "reason": "Solving the equation k^2 - 6 = H.C.F of 120, 150, and 210 results in k = 6."
-    },
-    {
-        "question": "The H.C.F of 1723 and 29 is:",
-        "options": ["1", "23", "17", "17×23×29"],
-        "correct_answer": "1",
-        "reason": "17, 23, and 29 are prime numbers with no common factors other than 1."
-    },
-    {
-        "question": "The L.C.M of 23×3×5 and 22×5×7 is:",
-        "options": ["1680", "420", "280", "840"],
-        "correct_answer": "1680",
-        "reason": "The lowest common multiple is the product of the highest powers of all prime factors."
-    },
-    {
-        "question": "The product of two numbers is 1600 and their H.C.F is 5 then L.C.M is:",
-        "options": ["8000", "1595", "320", "1605"],
-        "correct_answer": "320",
-        "reason": "Using the relationship H.C.F * L.C.M = product of the numbers, the L.C.M is 320."
-    },
-    {
-        "question": "The L.C.M of two numbers is 216 and their H.C.F is 36. One number is 72, then the second number is:",
-        "options": ["108", "180", "156", "144"],
-        "correct_answer": "108",
-        "reason": "Using the relationship H.C.F * L.C.M = product of the numbers, the second number is 108."
-    },
-    {
-        "question": "The decimal form of 2125 is:",
-        "options": ["0.8", "8.4", "0.48", "0.84"],
-        "correct_answer": "0.8",
-        "reason": "Dividing 21 by 25 gives 0.8."
-    },
-    {
-        "question": "The decimal form of 2321S2 is:",
-        "options": ["0.115", "0.023", "0.0115", "0.1015"],
-        "correct_answer": "0.115",
-        "reason": "Dividing 23 by 21 and converting to decimal form gives 0.115."
-    },
-    {
-        "question": "π is a/an:",
-        "options": ["irrational number", "rational number", "whole number", "natural number"],
-        "correct_answer": "irrational number",
-        "reason": "π is an irrational number as it cannot be expressed as a simple fraction."
-    },
-    {
-        "question": "1.120120012000… is a:",
-        "options": ["irrational number", "rational number", "whole number", "natural number"],
-        "correct_answer": "irrational number",
-        "reason": "The sequence does not terminate or repeat, making it an irrational number."
+        "question": "The decimal expansion of 9/11 is:",
+        "options": ["0.81", "0.8181...", "0.82", "0.818"],
+        "correct_answer": "0.8181...",
+        "reason": "The decimal expansion of 9/11 is a repeating decimal 0.8181..."
     },
     {
         "question": "Which of the following is an irrational number?",
-        "options": ["227", "3.1416", "3.1416", "3.141141114…"],
-        "correct_answer": "3.141141114…",
-        "reason": "The sequence does not terminate or repeat, making it an irrational number."
+        "options": ["3/4", "√10", "1.5", "2/5"],
+        "correct_answer": "√10",
+        "reason": "√10 cannot be expressed as a simple fraction, making it an irrational number."
     },
     {
-        "question": "The decimal form of 137 is:",
-        "options": ["0857142", "1.7857142", "1857142", "2.857142"],
-        "correct_answer": "2.857142",
-        "reason": "Dividing 137 gives the repeating decimal 2.857142."
+        "question": "Which of the following numbers is a rational number?",
+        "options": ["√3", "π", "√9", "e"],
+        "correct_answer": "√9",
+        "reason": "√9 is a rational number as it can be expressed as 3."
     },
     {
-        "question": "p is a prime number, then p is a:",
-        "options": ["irrational number", "rational number", "whole number", "natural number"],
-        "correct_answer": "whole number",
-        "reason": "Prime numbers are whole numbers greater than 1."
+        "question": "What is the value of √64?",
+        "options": ["6", "7", "8", "9"],
+        "correct_answer": "8",
+        "reason": "The square root of 64 is 8."
+    },
+    {
+        "question": "Which of the following numbers is a perfect square?",
+        "options": ["10", "15", "16", "20"],
+        "correct_answer": "16",
+        "reason": "16 is a perfect square as it can be expressed as 4^2."
+    },
+    {
+        "question": "The decimal expansion of 5/8 is:",
+        "options": ["0.625", "0.75", "0.5", "0.875"],
+        "correct_answer": "0.625",
+        "reason": "The decimal expansion of 5/8 is 0.625."
+    },
+    {
+        "question": "What is the LCM of 10 and 15?",
+        "options": ["20", "25", "30", "35"],
+        "correct_answer": "30",
+        "reason": "The least common multiple of 10 and 15 is 30."
+    },
+    {
+        "question": "Which of the following is the HCF of 20 and 30?",
+        "options": ["5", "10", "15", "20"],
+        "correct_answer": "10",
+        "reason": "The highest common factor of 20 and 30 is 10."
+    },
+    {
+        "question": "The decimal expansion of 4/5 is:",
+        "options": ["0.8", "0.85", "0.9", "0.75"],
+        "correct_answer": "0.8",
+        "reason": "The decimal expansion of 4/5 is 0.8."
+    },
+    {
+        "question": "Which of the following is a rational number?",
+        "options": ["√2", "π", "1.25", "√5"],
+        "correct_answer": "1.25",
+        "reason": "1.25 is a rational number as it can be expressed as a ratio of two integers."
+    },
+    {
+        "question": "What is the value of √81?",
+        "options": ["7", "8", "9", "10"],
+        "correct_answer": "9",
+        "reason": "The square root of 81 is 9."
+    },
+    {
+        "question": "Which of the following numbers is a perfect square?",
+        "options": ["18", "22", "25", "28"],
+        "correct_answer": "25",
+        "reason": "25 is a perfect square as it can be expressed as 5^2."
+    },
+    {
+        "question": "What is the HCF of 8 and 12?",
+        "options": ["2", "4", "6", "8"],
+        "correct_answer": "4",
+        "reason": "The highest common factor of 8 and 12 is 4."
+    },
+
+    {
+        "question": "Which of the following mirrors can form a real image?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "None of the above"],
+        "correct_answer": "Concave mirror",
+        "reason": "Concave mirrors can form real images when the object is placed beyond the focal point."
+    },
+    {
+        "question": "What type of image is formed by a convex mirror?",
+        "options": ["Real and inverted", "Virtual and upright", "Real and upright", "Virtual and inverted"],
+        "correct_answer": "Virtual and upright",
+        "reason": "Convex mirrors always form virtual and upright images."
+    },
+    {
+        "question": "The principal focus of a concave mirror is the point where:",
+        "options": ["Parallel rays converge", "Parallel rays diverge", "Light rays reflect parallel", "Light rays do not meet"],
+        "correct_answer": "Parallel rays converge",
+        "reason": "The principal focus of a concave mirror is where parallel rays of light meet after reflection."
+    },
+    {
+        "question": "What happens to the image formed by a concave mirror if the object is moved closer to the mirror from a distant point?",
+        "options": ["The image size decreases", "The image remains the same size", "The image size increases", "The image becomes virtual"],
+        "correct_answer": "The image size increases",
+        "reason": "As the object moves closer to a concave mirror, the size of the real image increases."
+    },
+    {
+        "question": "Which mirror is used as a rear-view mirror in vehicles?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Parabolic mirror"],
+        "correct_answer": "Convex mirror",
+        "reason": "Convex mirrors provide a wider field of view, making them suitable for use as rear-view mirrors."
+    },
+    {
+        "question": "The center of curvature of a concave mirror is:",
+        "options": ["In front of the mirror", "Behind the mirror", "At the surface of the mirror", "At the focus"],
+        "correct_answer": "In front of the mirror",
+        "reason": "The center of curvature of a concave mirror lies on the same side as the reflecting surface."
+    },
+    {
+        "question": "The focal length of a convex mirror is:",
+        "options": ["Positive", "Negative", "Zero", "Variable"],
+        "correct_answer": "Positive",
+        "reason": "The focal length of a convex mirror is considered positive as the focus is behind the mirror."
+    },
+    {
+        "question": "Which of the following describes the image formed by a plane mirror?",
+        "options": ["Real and inverted", "Virtual and upright", "Real and upright", "Virtual and inverted"],
+        "correct_answer": "Virtual and upright",
+        "reason": "A plane mirror always forms a virtual and upright image."
+    },
+    {
+        "question": "The formula for the mirror equation is:",
+        "options": ["1/f = 1/v + 1/u", "1/f = 1/u - 1/v", "1/f = 1/u + v", "1/f = 1/v - 1/u"],
+        "correct_answer": "1/f = 1/v + 1/u",
+        "reason": "The mirror equation is 1/f = 1/v + 1/u, where f is the focal length, v is the image distance, and u is the object distance."
+    },
+    {
+        "question": "What type of mirror is used in a solar furnace?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Cylindrical mirror"],
+        "correct_answer": "Concave mirror",
+        "reason": "Concave mirrors are used in solar furnaces to focus sunlight to a single point, producing high temperatures."
+    },
+    {
+        "question": "The image formed by a concave mirror when the object is at the focus is:",
+        "options": ["Real and inverted", "Virtual and upright", "Real and upright", "Highly enlarged"],
+        "correct_answer": "Highly enlarged",
+        "reason": "When the object is at the focus of a concave mirror, the image formed is highly enlarged and at infinity."
+    },
+    {
+        "question": "Which of the following mirrors can be used to focus light onto a single point?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Parabolic mirror"],
+        "correct_answer": "Concave mirror",
+        "reason": "Concave mirrors can focus parallel rays of light onto a single point, known as the focal point."
+    },
+    {
+        "question": "If the object is placed between the focal point and the concave mirror, the image formed is:",
+        "options": ["Real and inverted", "Virtual and upright", "Real and upright", "Virtual and inverted"],
+        "correct_answer": "Virtual and upright",
+        "reason": "When an object is placed between the focal point and a concave mirror, the image formed is virtual, upright, and enlarged."
+    },
+    {
+        "question": "The magnification produced by a mirror is given by the formula:",
+        "options": ["m = v/u", "m = u/v", "m = v + u", "m = u - v"],
+        "correct_answer": "m = v/u",
+        "reason": "The magnification (m) produced by a mirror is the ratio of the image distance (v) to the object distance (u)."
+    },
+    {
+        "question": "Which of the following correctly describes the focal length of a concave mirror?",
+        "options": ["Positive", "Negative", "Zero", "Infinite"],
+        "correct_answer": "Negative",
+        "reason": "The focal length of a concave mirror is considered negative as the focus is in front of the mirror."
+    },
+	{
+        "question": "What is the chemical formula for water?",
+        "options": ["H2O", "CO2", "O2", "H2"],
+        "correct_answer": "H2O",
+        "reason": "Water is chemically represented as H2O."
+    },
+    {
+        "question": "Which of the following is a balanced chemical equation?",
+        "options": ["H2 + O2 -> H2O", "H2 + O2 -> 2H2O", "2H2 + O2 -> 2H2O", "2H2 + O2 -> H2O2"],
+        "correct_answer": "2H2 + O2 -> 2H2O",
+        "reason": "The balanced chemical equation for the reaction between hydrogen and oxygen to form water is 2H2 + O2 -> 2H2O."
+    },
+    {
+        "question": "In the chemical equation 2Na + Cl2 -> 2NaCl, what is the product?",
+        "options": ["Na", "Cl2", "NaCl", "NaCl2"],
+        "correct_answer": "NaCl",
+        "reason": "NaCl (sodium chloride) is the product of the reaction between sodium and chlorine."
+    },
+    {
+        "question": "What type of reaction is represented by the equation: 2H2 + O2 -> 2H2O?",
+        "options": ["Decomposition", "Combination", "Single displacement", "Double displacement"],
+        "correct_answer": "Combination",
+        "reason": "The reaction where hydrogen and oxygen combine to form water is a combination reaction."
+    },
+    {
+        "question": "Which of the following equations represents a decomposition reaction?",
+        "options": ["2H2O -> 2H2 + O2", "H2 + Cl2 -> 2HCl", "NaOH + HCl -> NaCl + H2O", "Zn + 2HCl -> ZnCl2 + H2"],
+        "correct_answer": "2H2O -> 2H2 + O2",
+        "reason": "In a decomposition reaction, a compound breaks down into simpler substances, as shown in 2H2O -> 2H2 + O2."
+    },
+    {
+        "question": "What is the coefficient of O2 when the equation C3H8 + O2 -> CO2 + H2O is balanced?",
+        "options": ["3", "4", "5", "6"],
+        "correct_answer": "5",
+        "reason": "The balanced equation is C3H8 + 5O2 -> 3CO2 + 4H2O."
+    },
+    {
+        "question": "Which of the following correctly balances the equation: Fe + O2 -> Fe2O3?",
+        "options": ["2Fe + 3O2 -> Fe2O3", "4Fe + 3O2 -> 2Fe2O3", "Fe + O2 -> Fe2O3", "3Fe + 2O2 -> 2Fe2O3"],
+        "correct_answer": "4Fe + 3O2 -> 2Fe2O3",
+        "reason": "The balanced chemical equation is 4Fe + 3O2 -> 2Fe2O3."
+    },
+    {
+        "question": "Which gas is produced in the reaction: Zn + H2SO4 -> ZnSO4 + H2?",
+        "options": ["Oxygen", "Hydrogen", "Nitrogen", "Carbon dioxide"],
+        "correct_answer": "Hydrogen",
+        "reason": "Hydrogen gas (H2) is produced in the reaction between zinc and sulfuric acid."
+    },
+    {
+        "question": "What type of reaction is represented by the equation: AgNO3 + NaCl -> AgCl + NaNO3?",
+        "options": ["Decomposition", "Combination", "Single displacement", "Double displacement"],
+        "correct_answer": "Double displacement",
+        "reason": "The reaction where silver nitrate and sodium chloride exchange ions to form silver chloride and sodium nitrate is a double displacement reaction."
+    },
+    {
+        "question": "In the equation 2KClO3 -> 2KCl + 3O2, what is the reactant?",
+        "options": ["KCl", "O2", "KClO3", "Cl2"],
+        "correct_answer": "KClO3",
+        "reason": "Potassium chlorate (KClO3) is the reactant in the decomposition reaction."
+    },
+    {
+        "question": "Which of the following represents a single displacement reaction?",
+        "options": ["2H2O -> 2H2 + O2", "Zn + CuSO4 -> ZnSO4 + Cu", "2Na + Cl2 -> 2NaCl", "NaOH + HCl -> NaCl + H2O"],
+        "correct_answer": "Zn + CuSO4 -> ZnSO4 + Cu",
+        "reason": "In a single displacement reaction, one element replaces another in a compound, as shown in Zn + CuSO4 -> ZnSO4 + Cu."
+    },
+    {
+        "question": "What is the product when calcium carbonate (CaCO3) decomposes?",
+        "options": ["CaO and CO2", "Ca and CO3", "CaCO and O2", "CaC and O3"],
+        "correct_answer": "CaO and CO2",
+        "reason": "Calcium carbonate decomposes into calcium oxide (CaO) and carbon dioxide (CO2)."
+    },
+    {
+        "question": "Which of the following is the balanced form of the equation: H2 + Cl2 -> HCl?",
+        "options": ["H2 + Cl2 -> 2HCl", "H + Cl -> HCl", "2H2 + Cl2 -> HCl", "2H + 2Cl -> 2HCl"],
+        "correct_answer": "H2 + Cl2 -> 2HCl",
+        "reason": "The balanced chemical equation is H2 + Cl2 -> 2HCl."
+    },
+    {
+        "question": "What type of reaction is the following: 2Na + 2H2O -> 2NaOH + H2?",
+        "options": ["Combination", "Decomposition", "Single displacement", "Double displacement"],
+        "correct_answer": "Single displacement",
+        "reason": "In this single displacement reaction, sodium displaces hydrogen in water to form sodium hydroxide and hydrogen gas."
+    },
+    {
+        "question": "Which of the following chemical equations represents a combustion reaction?",
+        "options": ["CH4 + 2O2 -> CO2 + 2H2O", "2KClO3 -> 2KCl + 3O2", "AgNO3 + NaCl -> AgCl + NaNO3", "Zn + 2HCl -> ZnCl2 + H2"],
+        "correct_answer": "CH4 + 2O2 -> CO2 + 2H2O",
+        "reason": "Combustion reactions involve a substance (such as methane) reacting with oxygen to produce carbon dioxide and water."
     }
 ]
