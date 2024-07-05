@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function fetchQuizData() {
-        fetch('questions.json')
+        fetch('57.json')
             .then(response => response.json())
             .then(data => {
                 quizData = data;
