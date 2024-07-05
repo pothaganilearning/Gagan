@@ -16,5 +16,5 @@
         "options": ["√3", "2/3", "π", "√7"],
         "correct_answer": "2/3",
         "reason": "2/3 is a rational number as it can be expressed as a ratio of two integers."
-    },
+    }
 ]
