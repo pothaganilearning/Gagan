@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const questionContainer = document.getElementById("question-container");
     const resultContainer = document.getElementById("result-container");
     const submitButton = document.getElementById("submit-btn");
+    const downloadButton = document.getElementById("download-btn");
     const timeLeftSpan = document.getElementById("time-left");
 
     let quizData = [];
@@ -47,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul>
                     ${question.options.map(option => `<li>${option}</li>`).join('')}
                 </ul>
-                <div class="explanation">Explanation: ${question.reason}</div>
+                <div class="explanation" style="display: none;">Explanation: ${question.reason}</div>
             `;
             questionContainer.appendChild(questionElement);
 
@@ -73,11 +74,13 @@ document.addEventListener("DOMContentLoaded", function() {
         clearInterval(timerInterval);
         let score = 0;
         const questionItems = document.querySelectorAll(".question-item");
+        const incorrectAnswers = [];
 
         questionItems.forEach((item, index) => {
             const options = item.querySelectorAll("li");
             const correctAnswer = quizData[index].correct_answer;
 
+            let selectedOption;
             options.forEach(option => {
                 option.style.pointerEvents = "none";
 
@@ -87,6 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
 
                 if (option.classList.contains("selected")) {
+                    selectedOption = option;
                     if (option.textContent === correctAnswer) {
                         score++;
                     } else {
@@ -96,6 +100,16 @@ document.addEventListener("DOMContentLoaded", function() {
             });
 
             item.querySelector(".explanation").style.display = "block";
+
+            if (!selectedOption || selectedOption.textContent !== correctAnswer) {
+                incorrectAnswers.push({
+                    question: quizData[index].question,
+                    options: quizData[index].options,
+                    correctAnswer: quizData[index].correct_answer,
+                    selectedAnswer: selectedOption ? selectedOption.textContent : "No answer selected",
+                    explanation: quizData[index].reason
+                });
+            }
         });
 
         const totalQuestions = quizData.length;
@@ -105,7 +119,28 @@ document.addEventListener("DOMContentLoaded", function() {
             <p>Score: ${score} / ${totalQuestions}</p>
             <p>Percentage Score: ${percentageScore}%</p>
             <p>Time Taken: ${quizDuration - timeLeft} seconds</p>
+            <h2>Incorrect Answers:</h2>
+            <div id="incorrect-answers-container">
+                ${incorrectAnswers.map(incorrect => `
+                    <div class="incorrect-answer-item">
+                        <h3>Question: ${incorrect.question}</h3>
+                        <p>Your answer: ${incorrect.selectedAnswer}</p>
+                        <p>Correct answer: ${incorrect.correctAnswer}</p>
+                        <p>Explanation: ${incorrect.explanation}</p>
+                        <ul>
+                            ${incorrect.options.map(option => `<li>${option}</li>`).join('')}
+                        </ul>
+                    </div>
+                `).join('')}
+            </div>
         `;
+
+        if (incorrectAnswers.length > 0) {
+            downloadButton.style.display = 'block';
+            downloadButton.addEventListener('click', function() {
+                generateDownloadableJSON(incorrectAnswers);
+            });
+        }
     }
 
     function disableOptions() {
@@ -132,6 +167,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 displayQuestions();
             })
             .catch(error => console.error('Error fetching quiz data:', error));
+    }
+
+    function generateDownloadableJSON(incorrectAnswers) {
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(incorrectAnswers, null, 2));
+        const downloadAnchorNode = document.createElement('a');
+        downloadAnchorNode.setAttribute("href", dataStr);
+        downloadAnchorNode.setAttribute("download", "incorrect_answers.json");
+        document.body.appendChild(downloadAnchorNode); // required for firefox
+        downloadAnchorNode.click();
+        downloadAnchorNode.remove();
     }
 
     fetchQuizData();
