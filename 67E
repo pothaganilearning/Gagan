@@ -1,0 +1,242 @@
+[
+    {
+        "question": "What is the smallest positive integer that is divisible by 12, 15, and 20?",
+        "options": ["60", "120", "180", "240"],
+        "correct_answer": "60",
+        "reason": "The smallest positive integer divisible by 12, 15, and 20 is 60."
+    },
+    {
+        "question": "Which of the following numbers is both a perfect square and a perfect cube?",
+        "options": ["36", "64", "100", "216"],
+        "correct_answer": "64",
+        "reason": "64 is both a perfect square (8^2) and a perfect cube (4^3)."
+    },
+    {
+        "question": "What is the decimal expansion of 7/9?",
+        "options": ["0.777...", "0.7", "0.75", "0.8"],
+        "correct_answer": "0.777...",
+        "reason": "7/9 has a non-terminating, repeating decimal expansion: 0.777..."
+    },
+    {
+        "question": "What is the value of log_2(128)?",
+        "options": ["7", "8", "6", "5"],
+        "correct_answer": "7",
+        "reason": "log_2(128) equals 7 because 2^7 = 128."
+    },
+    {
+        "question": "Which of the following numbers is not a factor of 84?",
+        "options": ["2", "3", "6", "9"],
+        "correct_answer": "9",
+        "reason": "9 is not a factor of 84."
+    },
+    {
+        "question": "What is the prime factorization of 252?",
+        "options": ["2^2 × 3^2 × 7", "2 × 3^2 × 7", "2^3 × 3 × 7", "2^2 × 3 × 7^2"],
+        "correct_answer": "2^2 × 3^2 × 7",
+        "reason": "The prime factorization of 252 is 2^2 × 3^2 × 7."
+    },
+    {
+        "question": "Find the HCF of 48 and 60 using the prime factorization method.",
+        "options": ["6", "12", "24", "48"],
+        "correct_answer": "12",
+        "reason": "The HCF of 48 and 60 is 12 when using their prime factorizations."
+    },
+    {
+        "question": "Which of the following numbers is an irrational number?",
+        "options": ["√8", "5/2", "0.4", "7"],
+        "correct_answer": "√8",
+        "reason": "√8 is irrational because it cannot be expressed as a simple fraction."
+    },
+    {
+        "question": "What is the value of log_10(0.01)?",
+        "options": ["-2", "-1", "0", "2"],
+        "correct_answer": "-2",
+        "reason": "log_10(0.01) equals -2 because 10^-2 = 0.01."
+    },
+    {
+        "question": "What is the decimal expansion of 22/7?",
+        "options": ["3.142857...", "3.14", "3.15", "3.12"],
+        "correct_answer": "3.142857...",
+        "reason": "22/7 has a non-terminating, repeating decimal expansion: 3.142857..."
+    },
+    {
+        "question": "Which of the following is a correct simplification of log_3(81/27)?",
+        "options": ["1", "2", "3", "4"],
+        "correct_answer": "2",
+        "reason": "log_3(81/27) simplifies to log_3(3) = 2."
+    },
+    {
+        "question": "Find the decimal expansion of 13/25.",
+        "options": ["0.52", "0.5", "0.53", "0.51"],
+        "correct_answer": "0.52",
+        "reason": "13/25 has a terminating decimal expansion: 0.52."
+    },
+    {
+        "question": "What is the smallest number divisible by 5, 10, and 15?",
+        "options": ["30", "60", "45", "90"],
+        "correct_answer": "30",
+        "reason": "The smallest number divisible by 5, 10, and 15 is 30."
+    },
+    {
+        "question": "Which of the following numbers is a perfect square?",
+        "options": ["50", "64", "75", "80"],
+        "correct_answer": "64",
+        "reason": "64 is a perfect square (8^2)."
+    },
+    {
+        "question": "What is the value of log_2(256)?",
+        "options": ["6", "7", "8", "9"],
+        "correct_answer": "8",
+        "reason": "log_2(256) equals 8 because 2^8 = 256."
+    },
+    {
+        "question": "Which number is both a perfect square and a perfect cube?",
+        "options": ["27", "64", "125", "216"],
+        "correct_answer": "64",
+        "reason": "64 is both a perfect square and a perfect cube."
+    },
+    {
+        "question": "What is the prime factorization of 360?",
+        "options": ["2^3 × 3^2 × 5", "2^3 × 3 × 5", "2^2 × 3 × 5^2", "2 × 3^2 × 5^2"],
+        "correct_answer": "2^3 × 3^2 × 5",
+        "reason": "The prime factorization of 360 is 2^3 × 3^2 × 5."
+    },
+    {
+        "question": "Find the HCF of 72 and 84 using Euclid’s algorithm.",
+        "options": ["6", "12", "24", "36"],
+        "correct_answer": "12",
+        "reason": "The HCF of 72 and 84 is 12."
+    },
+    {
+        "question": "Which of the following numbers is an irrational number?",
+        "options": ["√2", "2", "0.5", "7"],
+        "correct_answer": "√2",
+        "reason": "√2 is an irrational number as it cannot be expressed as a simple fraction."
+    },
+    {
+        "question": "What is the decimal expansion of 19/25?",
+        "options": ["0.76", "0.75", "0.77", "0.78"],
+        "correct_answer": "0.76",
+        "reason": "19/25 has a terminating decimal expansion: 0.76."
+    },
+    {
+        "question": "What is the value of log_5(1/25)?",
+        "options": ["-2", "-1", "1", "2"],
+        "correct_answer": "-2",
+        "reason": "log_5(1/25) equals -2 because 5^-2 = 1/25."
+    },
+    {
+        "question": "Which of the following is a non-terminating, repeating decimal?",
+        "options": ["1/7", "2/5", "0.25", "0.5"],
+        "correct_answer": "1/7",
+        "reason": "1/7 has a non-terminating, repeating decimal expansion."
+    },
+    {
+        "question": "What is the value of log_10(5000)?",
+        "options": ["3.699", "3.7", "3.6", "3.8"],
+        "correct_answer": "3.699",
+        "reason": "log_10(5000) is approximately 3.699."
+    },
+    {
+        "question": "Which number is not a prime number?",
+        "options": ["17", "19", "21", "23"],
+        "correct_answer": "21",
+        "reason": "21 is not a prime number; it is divisible by 3 and 7."
+    },
+    {
+        "question": "What is the decimal expansion of 8/9?",
+        "options": ["0.888...", "0.8", "0.9", "0.87"],
+        "correct_answer": "0.888...",
+        "reason": "8/9 has a non-terminating, repeating decimal expansion: 0.888..."
+    },
+    {
+        "question": "What is the value of log_4(64)?",
+        "options": ["2", "3", "4", "5"],
+        "correct_answer": "3",
+        "reason": "log_4(64) equals 3 because 4^3 = 64."
+    },
+    {
+        "question": "Which of the following logarithmic expressions is equivalent to log_7(343)?",
+        "options": ["3", "2", "4", "5"],
+        "correct_answer": "3",
+        "reason": "log_7(343) equals 3 because 7^3 = 343."
+    },
+    {
+        "question": "What is the prime factorization of 432?",
+        "options": ["2^4 × 3^3", "2^3 × 3^3", "2^4 × 3^2", "2^3 × 3^2"],
+        "correct_answer": "2^4 × 3^3",
+        "reason": "The prime factorization of 432 is 2^4 × 3^3."
+    },
+    {
+        "question": "Find the smallest number that is divisible by both 8 and 14.",
+        "options": ["56", "72", "84", "92"],
+        "correct_answer": "56",
+        "reason": "The smallest number divisible by both 8 and 14 is 56."
+    },
+    {
+        "question": "Which number is both a perfect square and a perfect cube?",
+        "options": ["27", "64", "125", "216"],
+        "correct_answer": "64",
+        "reason": "64 is both a perfect square (8^2) and a perfect cube (4^3)."
+    },
+    {
+        "question": "What is the decimal expansion of 5/12?",
+        "options": ["0.41666...", "0.42", "0.43", "0.45"],
+        "correct_answer": "0.41666...",
+        "reason": "5/12 has a non-terminating, repeating decimal expansion: 0.41666..."
+    },
+    {
+        "question": "Which of the following numbers is a perfect square?",
+        "options": ["32", "49", "75", "100"],
+        "correct_answer": "49",
+        "reason": "49 is a perfect square (7^2)."
+    },
+    {
+        "question": "What is the value of log_10(0.1)?",
+        "options": ["-1", "-2", "0", "1"],
+        "correct_answer": "-1",
+        "reason": "log_10(0.1) equals -1 because 10^-1 = 0.1."
+    },
+    {
+        "question": "Which of the following logarithmic expressions is equivalent to log_2(8)?",
+        "options": ["2", "3", "4", "5"],
+        "correct_answer": "3",
+        "reason": "log_2(8) equals 3 because 2^3 = 8."
+    },
+    {
+        "question": "What is the smallest number divisible by 6 and 15?",
+        "options": ["30", "45", "60", "75"],
+        "correct_answer": "30",
+        "reason": "The smallest number divisible by 6 and 15 is 30."
+    },
+    {
+        "question": "Which of the following is a correct prime factorization of 216?",
+        "options": ["2^3 × 3^3", "2^4 × 3^2", "2^2 × 3^4", "2^3 × 3^2"],
+        "correct_answer": "2^3 × 3^3",
+        "reason": "The prime factorization of 216 is 2^3 × 3^3."
+    },
+    {
+        "question": "What is the decimal expansion of 11/8?",
+        "options": ["1.375", "1.4", "1.3", "1.25"],
+        "correct_answer": "1.375",
+        "reason": "11/8 has a terminating decimal expansion: 1.375."
+    },
+    {
+        "question": "Which of the following numbers is irrational?",
+        "options": ["√11", "0.5", "4", "7/3"],
+        "correct_answer": "√11",
+        "reason": "√11 is irrational because it cannot be expressed as a simple fraction."
+    },
+    {
+        "question": "What is the value of log_10(1000)?",
+        "options": ["1", "2", "3", "4"],
+        "correct_answer": "3",
+        "reason": "log_10(1000) equals 3 because 10^3 = 1000."
+    },
+    {
+        "question": "What is the decimal expansion of 2/9?",
+        "options": ["0.222...", "0.25", "0.2", "0.23"],
+        "correct_answer": "0.222...",
+        "reason": "2/9 has a non-terminating, repeating decimal expansion: 0.222..."
+    }
+]
