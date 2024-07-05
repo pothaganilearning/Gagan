@@ -2,7 +2,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const questionContainer = document.getElementById("question-container");
     const resultContainer = document.getElementById("result-container");
     const submitButton = document.getElementById("submit-btn");
-    const downloadButton = document.getElementById("download-btn");
+    const downloadButton = document.createElement('button');
+    downloadButton.id = 'download-btn';
+    downloadButton.style.display = 'none';
+    downloadButton.textContent = 'Download Incorrect Answers';
+    document.body.appendChild(downloadButton);
     const timeLeftSpan = document.getElementById("time-left");
 
     let quizData = [];
