@@ -103,9 +103,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 incorrectAnswers.push({
                     question: quizData[index].question,
                     options: quizData[index].options,
-                    correctAnswer: quizData[index].correct_answer,
-                    selectedAnswer: selectedOption ? selectedOption : "No answer selected",
-                    explanation: quizData[index].reason
+                    correct_answer: quizData[index].correct_answer,
+                    reason: quizData[index].reason
                 });
             } else {
                 score++;
@@ -124,12 +123,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 ${incorrectAnswers.map(incorrect => `
                     <div class="incorrect-answer-item">
                         <h3>Question: ${incorrect.question}</h3>
-                        <p>Your answer: ${incorrect.selectedAnswer}</p>
-                        <p>Correct answer: ${incorrect.correctAnswer}</p>
-                        <p>Explanation: ${incorrect.explanation}</p>
                         <ul>
                             ${incorrect.options.map(option => `<li>${option}</li>`).join('')}
                         </ul>
+                        <p>Correct answer: ${incorrect.correct_answer}</p>
+                        <p>Explanation: ${incorrect.reason}</p>
                     </div>
                 `).join('')}
             </div>
