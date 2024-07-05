@@ -1,20 +1,35 @@
 [
-    {
-        "question": "Which of the following is an irrational number?",
-        "options": ["4", "3", "√2", "5"],
-        "correct_answer": "√2",
-        "reason": "√2 cannot be expressed as a simple fraction, making it an irrational number."
-    },
-    {
-        "question": "What is the value of √16?",
-        "options": ["2", "3", "4", "5"],
-        "correct_answer": "4",
-        "reason": "The square root of 16 is 4."
-    },
-    {
-        "question": "Which of the following fractions is a rational number?",
-        "options": ["√3", "2/3", "π", "√7"],
-        "correct_answer": "2/3",
-        "reason": "2/3 is a rational number as it can be expressed as a ratio of two integers."
-    }
+  {
+    "question": "What is the value of √16?",
+    "options": [
+      "4",
+      "5",
+      "2",
+      "3"
+    ],
+    "correct_answer": "4",
+    "reason": "The square root of 16 is 4."
+  },
+  {
+    "question": "Which of the following fractions is a rational number?",
+    "options": [
+      "√7",
+      "2/3",
+      "√3",
+      "π"
+    ],
+    "correct_answer": "2/3",
+    "reason": "2/3 is a rational number as it can be expressed as a ratio of two integers."
+  },
+  {
+    "question": "Which of the following is an irrational number?",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "√2"
+    ],
+    "correct_answer": "√2",
+    "reason": "√2 cannot be expressed as a simple fraction, making it an irrational number."
+  }
 ]
