@@ -251,7 +251,7 @@
         "correct_answer": "2^2 × 3 × 5",
         "reason": "The prime factorization of 60 is 2^2 × 3 × 5."
     },
-	[
+
     {
         "question": "Which of the following mirrors can form a real image?",
         "options": ["Plane mirror", "Concave mirror", "Convex mirror", "None of these"],
