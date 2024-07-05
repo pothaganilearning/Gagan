@@ -46,19 +46,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 <h2>Question ${index + 1}:</h2>
                 <p>${question.question}</p>
                 <ul>
-                    ${question.options.map(option => `<li>${option}</li>`).join('')}
+                    ${question.options.map((option, i) => `
+                        <li>
+                            <label>
+                                <input type="radio" name="question-${index}" value="${option}">
+                                ${option}
+                            </label>
+                        </li>
+                    `).join('')}
                 </ul>
                 <div class="explanation" style="display: none;">Explanation: ${question.reason}</div>
             `;
             questionContainer.appendChild(questionElement);
-
-            const options = questionElement.querySelectorAll("li");
-            options.forEach(option => {
-                option.addEventListener("click", function() {
-                    options.forEach(opt => opt.classList.remove("selected"));
-                    option.classList.add("selected");
-                });
-            });
         });
 
         startTimer();
@@ -77,38 +76,39 @@ document.addEventListener("DOMContentLoaded", function() {
         const incorrectAnswers = [];
 
         questionItems.forEach((item, index) => {
-            const options = item.querySelectorAll("li");
+            const options = item.querySelectorAll("input[type='radio']");
             const correctAnswer = quizData[index].correct_answer;
-
             let selectedOption;
-            options.forEach(option => {
-                option.style.pointerEvents = "none";
 
-                if (option.textContent === correctAnswer) {
-                    option.style.fontWeight = "bold";
-                    option.style.color = "green";
+            options.forEach(option => {
+                option.disabled = true;
+
+                if (option.checked) {
+                    selectedOption = option.value;
                 }
 
-                if (option.classList.contains("selected")) {
-                    selectedOption = option;
-                    if (option.textContent === correctAnswer) {
-                        score++;
-                    } else {
-                        option.style.color = "red";
-                    }
+                if (option.value === correctAnswer) {
+                    option.parentElement.style.fontWeight = "bold";
+                    option.parentElement.style.color = "green";
+                }
+
+                if (option.checked && option.value !== correctAnswer) {
+                    option.parentElement.style.color = "red";
                 }
             });
 
             item.querySelector(".explanation").style.display = "block";
 
-            if (!selectedOption || selectedOption.textContent !== correctAnswer) {
+            if (selectedOption !== correctAnswer) {
                 incorrectAnswers.push({
                     question: quizData[index].question,
                     options: quizData[index].options,
                     correctAnswer: quizData[index].correct_answer,
-                    selectedAnswer: selectedOption ? selectedOption.textContent : "No answer selected",
+                    selectedAnswer: selectedOption ? selectedOption : "No answer selected",
                     explanation: quizData[index].reason
                 });
+            } else {
+                score++;
             }
         });
 
@@ -144,9 +144,9 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function disableOptions() {
-        const options = document.querySelectorAll(".question-item li");
+        const options = document.querySelectorAll(".question-item input[type='radio']");
         options.forEach(option => {
-            option.style.pointerEvents = "none";
+            option.disabled = true;
         });
     }
 
