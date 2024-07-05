@@ -1,0 +1,614 @@
+[
+    {
+        "question": "Which of the following is an irrational number?",
+        "options": ["4", "3", "52", "√23"],
+        "correct_answer": "√23",
+        "reason": "√23 is not a perfect square and cannot be expressed as a simple fraction, making it an irrational number."
+    },
+    {
+        "question": "What is the decimal representation of 1/3?",
+        "options": ["0.333...", "0.3", "0.33", "3"],
+        "correct_answer": "0.333...",
+        "reason": "The decimal representation of 1/3 is a repeating decimal 0.333..."
+    },
+    {
+        "question": "Which of the following is a rational number?",
+        "options": ["π", "e", "√2", "0.75"],
+        "correct_answer": "0.75",
+        "reason": "0.75 can be expressed as the fraction 3/4, making it a rational number."
+    },
+    {
+        "question": "The square root of 2 is:",
+        "options": ["A rational number", "An irrational number", "An integer", "A whole number"],
+        "correct_answer": "An irrational number",
+        "reason": "The square root of 2 cannot be expressed as a fraction, hence it is an irrational number."
+    },
+    {
+        "question": "Which of the following numbers is a perfect square?",
+        "options": ["8", "16", "18", "20"],
+        "correct_answer": "16",
+        "reason": "16 is a perfect square because it is 4^2."
+    },
+    {
+        "question": "What is the least common multiple (LCM) of 4 and 6?",
+        "options": ["12", "18", "24", "30"],
+        "correct_answer": "12",
+        "reason": "The LCM of 4 and 6 is 12 because 12 is the smallest number that both 4 and 6 divide evenly into."
+    },
+    {
+        "question": "The greatest common divisor (GCD) of 20 and 30 is:",
+        "options": ["5", "10", "15", "20"],
+        "correct_answer": "10",
+        "reason": "The GCD of 20 and 30 is 10 because 10 is the largest number that divides both 20 and 30 without leaving a remainder."
+    },
+    {
+        "question": "What is the value of 2^3?",
+        "options": ["6", "8", "9", "12"],
+        "correct_answer": "8",
+        "reason": "2^3 equals 8 because 2 multiplied by itself three times is 8."
+    },
+    {
+        "question": "Which of the following represents a terminating decimal?",
+        "options": ["1/3", "2/5", "1/7", "1/6"],
+        "correct_answer": "2/5",
+        "reason": "2/5 can be expressed as 0.4, which is a terminating decimal."
+    },
+    {
+        "question": "Which of the following fractions is in its simplest form?",
+        "options": ["4/8", "3/6", "5/10", "7/9"],
+        "correct_answer": "7/9",
+        "reason": "7/9 is already in its simplest form since 7 and 9 have no common divisors other than 1."
+    },
+    {
+        "question": "The sum of two rational numbers is:",
+        "options": ["Always rational", "Always irrational", "Sometimes rational", "Sometimes irrational"],
+        "correct_answer": "Always rational",
+        "reason": "The sum of two rational numbers is always rational."
+    },
+    {
+        "question": "The product of a rational and an irrational number is:",
+        "options": ["Always rational", "Always irrational", "Sometimes rational", "Sometimes irrational"],
+        "correct_answer": "Always irrational",
+        "reason": "The product of a rational number and an irrational number is always irrational, unless the rational number is zero."
+    },
+    {
+        "question": "What is the decimal representation of 2/5?",
+        "options": ["0.4", "0.5", "0.25", "0.75"],
+        "correct_answer": "0.4",
+        "reason": "The decimal representation of 2/5 is 0.4."
+    },
+    {
+        "question": "Which of the following is an example of a non-terminating, repeating decimal?",
+        "options": ["0.125", "0.333...", "0.5", "0.75"],
+        "correct_answer": "0.333...",
+        "reason": "0.333... is a repeating decimal."
+    },
+    {
+        "question": "What is the value of 5^0?",
+        "options": ["0", "1", "5", "Undefined"],
+        "correct_answer": "1",
+        "reason": "Any non-zero number raised to the power of 0 is 1."
+    },
+    {
+        "question": "The number √16 is:",
+        "options": ["2", "4", "8", "16"],
+        "correct_answer": "4",
+        "reason": "The square root of 16 is 4 because 4^2 = 16."
+    },
+    {
+        "question": "What is the product of 3 and 7?",
+        "options": ["21", "27", "30", "37"],
+        "correct_answer": "21",
+        "reason": "The product of 3 and 7 is 21."
+    },
+    {
+        "question": "Which of the following is the prime factorization of 36?",
+        "options": ["2 × 18", "3 × 12", "2^2 × 3^2", "2^3 × 3"],
+        "correct_answer": "2^2 × 3^2",
+        "reason": "The prime factorization of 36 is 2^2 × 3^2."
+    },
+    {
+        "question": "The reciprocal of 5/6 is:",
+        "options": ["6/5", "1/5", "1/6", "5/6"],
+        "correct_answer": "6/5",
+        "reason": "The reciprocal of a fraction is obtained by swapping the numerator and the denominator."
+    },
+    {
+        "question": "Which of the following is an example of an irrational number?",
+        "options": ["√4", "3/7", "π", "0.25"],
+        "correct_answer": "π",
+        "reason": "π is an irrational number because it cannot be expressed as a fraction."
+    },
+    {
+        "question": "What is the value of (3/4) + (1/4)?",
+        "options": ["1", "1/2", "3/4", "1/4"],
+        "correct_answer": "1",
+        "reason": "The sum of (3/4) + (1/4) is 1."
+    },
+    {
+        "question": "The decimal representation of 1/8 is:",
+        "options": ["0.125", "0.25", "0.5", "0.75"],
+        "correct_answer": "0.125",
+        "reason": "The decimal representation of 1/8 is 0.125."
+    },
+    {
+        "question": "Which of the following is a composite number?",
+        "options": ["3", "5", "7", "9"],
+        "correct_answer": "9",
+        "reason": "A composite number has more than two factors. 9 is a composite number because it can be divided by 1, 3, and 9."
+    },
+    {
+        "question": "What is the square root of 81?",
+        "options": ["7", "8", "9", "10"],
+        "correct_answer": "9",
+        "reason": "The square root of 81 is 9 because 9^2 = 81."
+    },
+    {
+        "question": "Which of the following is a prime number?",
+        "options": ["4", "6", "8", "11"],
+        "correct_answer": "11",
+        "reason": "11 is a prime number because it has no divisors other than 1 and itself."
+    },
+    {
+        "question": "What is the value of 7^2?",
+        "options": ["14", "21", "49", "77"],
+        "correct_answer": "49",
+        "reason": "7^2 equals 49 because 7 multiplied by itself is 49."
+    },
+    {
+        "question": "The cube root of 27 is:",
+        "options": ["3", "6", "9", "12"],
+        "correct_answer": "3",
+        "reason": "The cube root of 27 is 3 because 3^3 = 27."
+    },
+    {
+        "question": "Which of the following is the prime factorization of 45?",
+        "options": ["3^2 × 5", "3 × 15", "5 × 9", "45"],
+        "correct_answer": "3^2 × 5",
+        "reason": "The prime factorization of 45 is 3^2 × 5."
+    },
+    {
+        "question": "What is the sum of the first 10 natural numbers?",
+        "options": ["45", "50", "55", "60"],
+        "correct_answer": "55",
+        "reason": "The sum of the first 10 natural numbers is 55."
+    },
+    {
+        "question": "Which of the following is an example of a terminating decimal?",
+        "options": ["1/3", "1/4", "1/6", "1/7"],
+        "correct_answer": "1/4",
+        "reason": "1/4 can be expressed as 0.25, which is a terminating decimal."
+    },
+    {
+        "question": "What is the greatest common divisor (GCD) of 24 and 36?",
+        "options": ["4", "6", "12", "18"],
+        "correct_answer": "12",
+        "reason": "The GCD of 24 and 36 is 12 because 12 is the largest number that divides both 24 and 36 without leaving a remainder."
+    },
+    {
+        "question": "Which of the following numbers is a perfect cube?",
+        "options": ["8", "9", "15", "20"],
+        "correct_answer": "8",
+        "reason": "8 is a perfect cube because it is 2^3."
+    },
+    {
+        "question": "What is the value of √25?",
+        "options": ["4", "5", "6", "7"],
+        "correct_answer": "5",
+        "reason": "The square root of 25 is 5 because 5^2 = 25."
+    },
+    {
+        "question": "The product of two irrational numbers is:",
+        "options": ["Always rational", "Always irrational", "Sometimes rational", "Sometimes irrational"],
+        "correct_answer": "Sometimes irrational",
+        "reason": "The product of two irrational numbers can be either rational or irrational."
+    },
+    {
+        "question": "What is the value of 4^3?",
+        "options": ["12", "16", "64", "128"],
+        "correct_answer": "64",
+        "reason": "4^3 equals 64 because 4 multiplied by itself three times is 64."
+    },
+    {
+        "question": "Which of the following is an example of a non-terminating, non-repeating decimal?",
+        "options": ["π", "1/3", "0.25", "0.5"],
+        "correct_answer": "π",
+        "reason": "π is a non-terminating, non-repeating decimal."
+    },
+    {
+        "question": "The sum of two irrational numbers is:",
+        "options": ["Always rational", "Always irrational", "Sometimes rational", "Sometimes irrational"],
+        "correct_answer": "Sometimes irrational",
+        "reason": "The sum of two irrational numbers can be either rational or irrational."
+    },
+    {
+        "question": "Which of the following represents an irrational number?",
+        "options": ["√4", "√9", "√15", "√16"],
+        "correct_answer": "√15",
+        "reason": "√15 is an irrational number because it cannot be expressed as a fraction."
+    },
+    {
+        "question": "The decimal representation of 1/5 is:",
+        "options": ["0.2", "0.25", "0.5", "0.75"],
+        "correct_answer": "0.2",
+        "reason": "The decimal representation of 1/5 is 0.2."
+    },
+    {
+        "question": "Which of the following is a prime number?",
+        "options": ["8", "11", "12", "14"],
+        "correct_answer": "11",
+        "reason": "11 is a prime number because it has no divisors other than 1 and itself."
+    },
+    {
+        "question": "What is the product of 4 and 5?",
+        "options": ["9", "10", "20", "25"],
+        "correct_answer": "20",
+        "reason": "The product of 4 and 5 is 20."
+    },
+    {
+        "question": "Which of the following is the prime factorization of 60?",
+        "options": ["2^2 × 3 × 5", "2 × 5 × 6", "4 × 15", "60"],
+        "correct_answer": "2^2 × 3 × 5",
+        "reason": "The prime factorization of 60 is 2^2 × 3 × 5."
+    },
+	[
+    {
+        "question": "Which of the following mirrors can form a real image?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "None of these"],
+        "correct_answer": "Concave mirror",
+        "reason": "A concave mirror can form real images as the reflected rays converge at a point."
+    },
+    {
+        "question": "What is the focal length of a concave mirror with a radius of curvature of 20 cm?",
+        "options": ["10 cm", "20 cm", "30 cm", "40 cm"],
+        "correct_answer": "10 cm",
+        "reason": "The focal length (f) is half the radius of curvature (R): f = R/2. So, f = 20/2 = 10 cm."
+    },
+    {
+        "question": "In which type of mirror is the reflecting surface curved inward?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Cylindrical mirror"],
+        "correct_answer": "Concave mirror",
+        "reason": "A concave mirror has a reflecting surface that curves inward."
+    },
+    {
+        "question": "Which mirror is used in vehicle headlights to focus light into a beam?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Spherical mirror"],
+        "correct_answer": "Concave mirror",
+        "reason": "Concave mirrors are used in headlights to focus light into a parallel beam."
+    },
+    {
+        "question": "What is the nature of the image formed by a convex mirror?",
+        "options": ["Real and inverted", "Real and upright", "Virtual and inverted", "Virtual and upright"],
+        "correct_answer": "Virtual and upright",
+        "reason": "A convex mirror always forms a virtual and upright image."
+    },
+    {
+        "question": "What is the mirror formula?",
+        "options": ["1/f = 1/v + 1/u", "1/f = 1/u + 1/v", "1/f = v/u + u/v", "1/f = u/v + v/u"],
+        "correct_answer": "1/f = 1/v + 1/u",
+        "reason": "The mirror formula relates the focal length (f), object distance (u), and image distance (v) as 1/f = 1/v + 1/u."
+    },
+    {
+        "question": "Which of the following represents the correct relationship for magnification (m) in mirrors?",
+        "options": ["m = v/u", "m = -v/u", "m = u/v", "m = -u/v"],
+        "correct_answer": "m = -v/u",
+        "reason": "Magnification (m) is given by the ratio of the image distance (v) to the object distance (u): m = -v/u."
+    },
+    {
+        "question": "What is the focal length of a convex mirror with a radius of curvature of 24 cm?",
+        "options": ["12 cm", "24 cm", "36 cm", "48 cm"],
+        "correct_answer": "12 cm",
+        "reason": "The focal length (f) is half the radius of curvature (R): f = R/2. So, f = 24/2 = 12 cm."
+    },
+    {
+        "question": "Where should an object be placed in front of a concave mirror to form a real and inverted image?",
+        "options": ["At the focus", "At the center of curvature", "Between the pole and focus", "Between the focus and center of curvature"],
+        "correct_answer": "Between the focus and center of curvature",
+        "reason": "A real and inverted image is formed when the object is placed between the focus and center of curvature."
+    },
+    {
+        "question": "What is the focal length of a plane mirror?",
+        "options": ["Infinite", "Zero", "Equal to the object distance", "Twice the object distance"],
+        "correct_answer": "Infinite",
+        "reason": "The focal length of a plane mirror is considered to be infinite."
+    },
+    {
+        "question": "What is the nature of the image formed by a concave mirror when the object is placed at the focus?",
+        "options": ["Real and inverted", "Real and upright", "Virtual and inverted", "Virtual and upright"],
+        "correct_answer": "Virtual and upright",
+        "reason": "When the object is placed at the focus of a concave mirror, the image formed is virtual and upright."
+    },
+    {
+        "question": "In which of the following cases does a convex mirror form a virtual image?",
+        "options": ["When the object is at infinity", "When the object is at the focus", "When the object is between the pole and focus", "In all cases"],
+        "correct_answer": "In all cases",
+        "reason": "A convex mirror always forms a virtual image regardless of the object's position."
+    },
+    {
+        "question": "Which mirror is used as a shaving mirror?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Spherical mirror"],
+        "correct_answer": "Concave mirror",
+        "reason": "Concave mirrors are used as shaving mirrors because they can magnify the image when the object is placed close to the mirror."
+    },
+    {
+        "question": "What happens to the image formed by a concave mirror as the object moves from infinity towards the mirror?",
+        "options": ["The image moves from the focus towards the mirror", "The image moves from the center of curvature towards the focus", "The image size decreases", "The image moves from the focus towards infinity"],
+        "correct_answer": "The image moves from the focus towards the mirror",
+        "reason": "As the object moves from infinity towards a concave mirror, the image moves from the focus towards the mirror."
+    },
+    {
+        "question": "Which type of mirror is used in a solar furnace to focus sunlight?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Parabolic mirror"],
+        "correct_answer": "Parabolic mirror",
+        "reason": "A parabolic mirror is used in solar furnaces to focus sunlight at a single point."
+    },
+    {
+        "question": "What is the principal axis of a curved mirror?",
+        "options": ["A line passing through the focus", "A line passing through the center of curvature", "A line passing through the pole and center of curvature", "A line perpendicular to the mirror's surface"],
+        "correct_answer": "A line passing through the pole and center of curvature",
+        "reason": "The principal axis is a line passing through the pole and center of curvature of the mirror."
+    },
+    {
+        "question": "What type of image is formed by a convex mirror when the object is placed at infinity?",
+        "options": ["Real and inverted", "Real and upright", "Virtual and inverted", "Virtual and upright"],
+        "correct_answer": "Virtual and upright",
+        "reason": "A convex mirror forms a virtual and upright image when the object is placed at infinity."
+    },
+    {
+        "question": "Which of the following best describes the image formed by a plane mirror?",
+        "options": ["Virtual and the same size as the object", "Real and the same size as the object", "Virtual and smaller than the object", "Real and smaller than the object"],
+        "correct_answer": "Virtual and the same size as the object",
+        "reason": "A plane mirror forms a virtual image that is the same size as the object."
+    },
+    {
+        "question": "What is the effect of moving an object closer to a concave mirror on the image size?",
+        "options": ["The image size increases", "The image size decreases", "The image remains the same size", "The image size fluctuates"],
+        "correct_answer": "The image size increases",
+        "reason": "As the object moves closer to a concave mirror, the image size increases."
+    },
+    {
+        "question": "Which type of mirror is used as a rear-view mirror in vehicles?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Cylindrical mirror"],
+        "correct_answer": "Convex mirror",
+        "reason": "Convex mirrors are used as rear-view mirrors in vehicles because they provide a wider field of view."
+    },
+    {
+        "question": "What is the center of curvature of a spherical mirror?",
+        "options": ["The point on the mirror's surface", "The midpoint of the mirror's radius", "The center of the sphere from which the mirror is a part", "The focus of the mirror"],
+        "correct_answer": "The center of the sphere from which the mirror is a part",
+        "reason": "The center of curvature is the center of the sphere from which the mirror segment is taken."
+    },
+    {
+        "question": "What is the relationship between the focal length and radius of curvature for a spherical mirror?",
+        "options": ["f = 2R", "f = R/2", "f = R", "f = R/4"],
+        "correct_answer": "f = R/2",
+        "reason": "The focal length (f) is half the radius of curvature (R): f = R/2."
+    },
+    {
+        "question": "Which type of mirror can converge parallel rays of light to a single point?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Spherical mirror"],
+        "correct_answer": "Concave mirror",
+        "reason": "A concave mirror can converge parallel rays of light to a single point (focus)."
+    },
+    {
+        "question": "What type of image is formed by a concave mirror when the object is between the focus and the mirror?",
+        "options": ["Real and inverted", "Real and upright", "Virtual and inverted", "Virtual and upright"],
+        "correct_answer": "Virtual and upright",
+        "reason": "When the object is between the focus and a concave mirror, the image formed is virtual and upright."
+    },
+    {
+        "question": "Which of the following best describes the nature of the image formed by a concave mirror when the object is placed at the center of curvature?",
+        "options": ["Real, inverted, and larger than the object", "Real, inverted, and the same size as the object", "Real, inverted, and smaller than the object", "Virtual, upright, and larger than the object"],
+        "correct_answer": "Real, inverted, and the same size as the object",
+        "reason": "When the object is placed at the center of curvature of a concave mirror, the image formed is real, inverted, and the same size as the object."
+    },
+    {
+        "question": "What is the magnification of the image formed by a concave mirror when the object is placed at the focus?",
+        "options": ["0", "1", "Infinity", "Negative"],
+        "correct_answer": "Infinity",
+        "reason": "When the object is placed at the focus of a concave mirror, the image is formed at infinity, and thus the magnification is infinite."
+    },
+    {
+        "question": "What type of image is formed by a convex mirror for any position of the object?",
+        "options": ["Real and inverted", "Real and upright", "Virtual and inverted", "Virtual and upright"],
+        "correct_answer": "Virtual and upright",
+        "reason": "A convex mirror always forms a virtual and upright image regardless of the object's position."
+    },
+    {
+        "question": "Which of the following mirrors can form both real and virtual images?",
+        "options": ["Plane mirror", "Concave mirror", "Convex mirror", "None of these"],
+        "correct_answer": "Concave mirror",
+        "reason": "A concave mirror can form both real and virtual images depending on the position of the object."
+    },
+    {
+        "question": "What happens to the image formed by a convex mirror as the object moves closer to the mirror?",
+        "options": ["The image moves away from the mirror", "The image size increases", "The image size decreases", "The image size remains the same"],
+        "correct_answer": "The image size increases",
+        "reason": "As the object moves closer to a convex mirror, the image size increases."
+    },
+		
+    {
+        "question": "Which of the following is a balanced chemical equation?",
+        "options": ["H2 + O2 -> H2O", "2H2 + O2 -> 2H2O", "H2 + 2O2 -> H2O", "H2O -> H2 + O2"],
+        "correct_answer": "2H2 + O2 -> 2H2O",
+        "reason": "The balanced chemical equation for the formation of water from hydrogen and oxygen is 2H2 + O2 -> 2H2O."
+    },
+    {
+        "question": "What is the product formed when calcium reacts with water?",
+        "options": ["CaO and H2", "Ca(OH)2 and H2", "Ca(OH)2 and O2", "CaO and O2"],
+        "correct_answer": "Ca(OH)2 and H2",
+        "reason": "When calcium reacts with water, calcium hydroxide (Ca(OH)2) and hydrogen gas (H2) are formed."
+    },
+    {
+        "question": "What type of reaction is represented by the equation: 2KClO3 -> 2KCl + 3O2?",
+        "options": ["Combination reaction", "Decomposition reaction", "Displacement reaction", "Double displacement reaction"],
+        "correct_answer": "Decomposition reaction",
+        "reason": "This is a decomposition reaction where potassium chlorate (KClO3) breaks down into potassium chloride (KCl) and oxygen gas (O2)."
+    },
+    {
+        "question": "Which of the following statements about a balanced chemical equation is true?",
+        "options": ["The number of atoms of each element is the same on both sides", "The total mass of reactants is less than the total mass of products", "The number of molecules is the same on both sides", "The volume of reactants is the same as the volume of products"],
+        "correct_answer": "The number of atoms of each element is the same on both sides",
+        "reason": "In a balanced chemical equation, the number of atoms of each element is conserved, maintaining the law of conservation of mass."
+    },
+    {
+        "question": "What is the product of the reaction between hydrochloric acid and sodium hydroxide?",
+        "options": ["NaCl and H2O", "NaOH and H2O", "NaCl and H2", "NaCl and O2"],
+        "correct_answer": "NaCl and H2O",
+        "reason": "The reaction between hydrochloric acid (HCl) and sodium hydroxide (NaOH) produces sodium chloride (NaCl) and water (H2O)."
+    },
+    {
+        "question": "In the chemical equation Zn + 2HCl -> ZnCl2 + H2, what is the reducing agent?",
+        "options": ["Zn", "HCl", "ZnCl2", "H2"],
+        "correct_answer": "Zn",
+        "reason": "Zinc (Zn) is the reducing agent as it loses electrons and is oxidized, reducing hydrogen ions (H+) to hydrogen gas (H2)."
+    },
+    {
+        "question": "Which of the following equations represents a double displacement reaction?",
+        "options": ["H2 + Cl2 -> 2HCl", "Na2SO4 + BaCl2 -> BaSO4 + 2NaCl", "2Mg + O2 -> 2MgO", "C + O2 -> CO2"],
+        "correct_answer": "Na2SO4 + BaCl2 -> BaSO4 + 2NaCl",
+        "reason": "A double displacement reaction involves the exchange of ions between two compounds, forming two new compounds."
+    },
+    {
+        "question": "What type of reaction is Fe + CuSO4 -> FeSO4 + Cu?",
+        "options": ["Combination reaction", "Decomposition reaction", "Displacement reaction", "Double displacement reaction"],
+        "correct_answer": "Displacement reaction",
+        "reason": "This is a displacement reaction where iron (Fe) displaces copper (Cu) from copper sulfate (CuSO4), forming iron sulfate (FeSO4) and copper (Cu)."
+    },
+    {
+        "question": "Which of the following is not a physical change?",
+        "options": ["Melting of ice", "Boiling of water", "Rusting of iron", "Dissolving sugar in water"],
+        "correct_answer": "Rusting of iron",
+        "reason": "Rusting of iron is a chemical change as it involves the formation of a new substance, iron oxide."
+    },
+    {
+        "question": "What is the coefficient of O2 when the equation C3H8 + O2 -> CO2 + H2O is balanced?",
+        "options": ["3", "4", "5", "6"],
+        "correct_answer": "5",
+        "reason": "The balanced equation is C3H8 + 5O2 -> 3CO2 + 4H2O."
+    },
+    {
+        "question": "Which of the following represents a combination reaction?",
+        "options": ["H2 + O2 -> H2O", "2HgO -> 2Hg + O2", "NaCl + AgNO3 -> NaNO3 + AgCl", "Fe + CuSO4 -> FeSO4 + Cu"],
+        "correct_answer": "H2 + O2 -> H2O",
+        "reason": "A combination reaction involves two or more reactants combining to form a single product."
+    },
+    {
+        "question": "What is the product formed when sulfur dioxide reacts with water?",
+        "options": ["H2SO3", "H2SO4", "SO3", "H2O2"],
+        "correct_answer": "H2SO3",
+        "reason": "Sulfur dioxide (SO2) reacts with water (H2O) to form sulfurous acid (H2SO3)."
+    },
+    {
+        "question": "What is the balanced form of the equation: Al + O2 -> Al2O3?",
+        "options": ["Al + O2 -> Al2O3", "4Al + 3O2 -> 2Al2O3", "2Al + 3O2 -> Al2O3", "Al + O2 -> 2Al2O3"],
+        "correct_answer": "4Al + 3O2 -> 2Al2O3",
+        "reason": "The balanced chemical equation is 4Al + 3O2 -> 2Al2O3."
+    },
+    {
+        "question": "Which gas is produced when hydrochloric acid reacts with zinc?",
+        "options": ["Hydrogen", "Oxygen", "Chlorine", "Nitrogen"],
+        "correct_answer": "Hydrogen",
+        "reason": "The reaction between hydrochloric acid (HCl) and zinc (Zn) produces hydrogen gas (H2)."
+    },
+    {
+        "question": "What is the role of a catalyst in a chemical reaction?",
+        "options": ["Increases the temperature of the reaction", "Decreases the temperature of the reaction", "Increases the rate of the reaction", "Decreases the rate of the reaction"],
+        "correct_answer": "Increases the rate of the reaction",
+        "reason": "A catalyst increases the rate of a chemical reaction without being consumed in the process."
+    },
+    {
+        "question": "What type of reaction is represented by the equation: 2Na + Cl2 -> 2NaCl?",
+        "options": ["Combination reaction", "Decomposition reaction", "Displacement reaction", "Double displacement reaction"],
+        "correct_answer": "Combination reaction",
+        "reason": "This is a combination reaction where sodium (Na) and chlorine (Cl2) combine to form sodium chloride (NaCl)."
+    },
+    {
+        "question": "Which of the following compounds is formed when carbon dioxide reacts with lime water?",
+        "options": ["Calcium oxide", "Calcium hydroxide", "Calcium carbonate", "Calcium chloride"],
+        "correct_answer": "Calcium carbonate",
+        "reason": "Carbon dioxide (CO2) reacts with lime water (Ca(OH)2) to form calcium carbonate (CaCO3)."
+    },
+    {
+        "question": "Which of the following is a characteristic of a chemical change?",
+        "options": ["Change in state", "Change in color", "Change in temperature", "All of the above"],
+        "correct_answer": "All of the above",
+        "reason": "Chemical changes often involve changes in state, color, and temperature."
+    },
+    {
+        "question": "What is the balanced form of the equation: N2 + H2 -> NH3?",
+        "options": ["N2 + 2H2 -> 2NH3", "N2 + 3H2 -> 2NH3", "2N2 + 3H2 -> 2NH3", "N2 + 3H2 -> NH3"],
+        "correct_answer": "N2 + 3H2 -> 2NH3",
+        "reason": "The balanced chemical equation is N2 + 3H2 -> 2NH3."
+    },
+    {
+        "question": "What is the product of the reaction between potassium hydroxide and nitric acid?",
+        "options": ["KNO2 and H2O", "KNO3 and H2O", "KNO3 and H2", "KNO2 and H2"],
+        "correct_answer": "KNO3 and H2O",
+        "reason": "The reaction between potassium hydroxide (KOH) and nitric acid (HNO3) produces potassium nitrate (KNO3) and water (H2O)."
+    },
+    {
+        "question": "What is the balanced form of the equation: C4H10 + O2 -> CO2 + H2O?",
+        "options": ["C4H10 + 5O2 -> 4CO2 + 5H2O", "2C4H10 + 13O2 -> 8CO2 + 10H2O", "C4H10 + 6.5O2 -> 4CO2 + 5H2O", "2C4H10 + 7O2 -> 4CO2 + 10H2O"],
+        "correct_answer": "2C4H10 + 13O2 -> 8CO2 + 10H2O",
+        "reason": "The balanced chemical equation is 2C4H10 + 13O2 -> 8CO2 + 10H2O."
+    },
+    {
+        "question": "Which of the following reactions represents combustion?",
+        "options": ["CH4 + 2O2 -> CO2 + 2H2O", "Na + Cl2 -> NaCl", "2H2 + O2 -> 2H2O", "CaCO3 -> CaO + CO2"],
+        "correct_answer": "CH4 + 2O2 -> CO2 + 2H2O",
+        "reason": "Combustion is a reaction where a substance reacts with oxygen to produce heat and light, such as the burning of methane (CH4)."
+    },
+    {
+        "question": "What type of reaction is AgNO3 + NaCl -> AgCl + NaNO3?",
+        "options": ["Combination reaction", "Decomposition reaction", "Displacement reaction", "Double displacement reaction"],
+        "correct_answer": "Double displacement reaction",
+        "reason": "A double displacement reaction involves the exchange of ions between two compounds, forming two new compounds."
+    },
+    {
+        "question": "Which of the following is a product of the neutralization reaction between hydrochloric acid and sodium bicarbonate?",
+        "options": ["NaCl and H2O", "NaCl, H2O, and CO2", "NaOH and H2O", "NaOH and CO2"],
+        "correct_answer": "NaCl, H2O, and CO2",
+        "reason": "The reaction between hydrochloric acid (HCl) and sodium bicarbonate (NaHCO3) produces sodium chloride (NaCl), water (H2O), and carbon dioxide (CO2)."
+    },
+    {
+        "question": "Which gas is produced when a metal carbonate reacts with an acid?",
+        "options": ["Oxygen", "Carbon dioxide", "Hydrogen", "Nitrogen"],
+        "correct_answer": "Carbon dioxide",
+        "reason": "The reaction between a metal carbonate and an acid produces carbon dioxide gas (CO2)."
+    },
+    {
+        "question": "What type of reaction is 2Na + 2H2O -> 2NaOH + H2?",
+        "options": ["Combination reaction", "Decomposition reaction", "Displacement reaction", "Double displacement reaction"],
+        "correct_answer": "Displacement reaction",
+        "reason": "This is a displacement reaction where sodium (Na) displaces hydrogen (H) from water (H2O), forming sodium hydroxide (NaOH) and hydrogen gas (H2)."
+    },
+    {
+        "question": "What is the balanced form of the equation: Fe2O3 + C -> Fe + CO2?",
+        "options": ["Fe2O3 + 3C -> 2Fe + 3CO2", "2Fe2O3 + 3C -> 4Fe + 3CO2", "Fe2O3 + C -> 2Fe + CO2", "2Fe2O3 + 3C -> 4Fe + 6CO2"],
+        "correct_answer": "2Fe2O3 + 3C -> 4Fe + 3CO2",
+        "reason": "The balanced chemical equation is 2Fe2O3 + 3C -> 4Fe + 3CO2."
+    },
+    {
+        "question": "Which of the following reactions represents a redox reaction?",
+        "options": ["Zn + 2HCl -> ZnCl2 + H2", "NaOH + HCl -> NaCl + H2O", "CaCO3 -> CaO + CO2", "AgNO3 + NaCl -> AgCl + NaNO3"],
+        "correct_answer": "Zn + 2HCl -> ZnCl2 + H2",
+        "reason": "A redox reaction involves the transfer of electrons, such as in the reaction between zinc (Zn) and hydrochloric acid (HCl)."
+    },
+    {
+        "question": "What is the product formed when aluminum reacts with hydrochloric acid?",
+        "options": ["AlCl3 and H2", "AlCl3 and H2O", "Al(OH)3 and H2", "Al(OH)3 and H2O"],
+        "correct_answer": "AlCl3 and H2",
+        "reason": "The reaction between aluminum (Al) and hydrochloric acid (HCl) produces aluminum chloride (AlCl3) and hydrogen gas (H2)."
+    },
+    {
+        "question": "Which of the following represents a precipitation reaction?",
+        "options": ["AgNO3 + NaCl -> AgCl + NaNO3", "H2 + O2 -> H2O", "Na + Cl2 -> NaCl", "CaCO3 -> CaO + CO2"],
+        "correct_answer": "AgNO3 + NaCl -> AgCl + NaNO3",
+        "reason": "A precipitation reaction involves the formation of a solid (precipitate) from a solution, such as the formation of AgCl in this reaction."
+    }
+]
+
+
+
+    
