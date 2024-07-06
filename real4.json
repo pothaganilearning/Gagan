@@ -1,0 +1,176 @@
+[
+    {
+        "question": "What is the decimal expansion of 1/3?",
+        "options": ["0.333...", "0.25", "0.5", "0.75"],
+        "correct_answer": "0.333...",
+        "reason": "1/3 has a non-terminating, repeating decimal expansion: 0.333..."
+    },
+    {
+        "question": "Which of the following fractions has a terminating decimal expansion?",
+        "options": ["1/2", "2/3", "4/7", "5/11"],
+        "correct_answer": "1/2",
+        "reason": "1/2 has a terminating decimal expansion because its denominator can be expressed as a power of 2."
+    },
+    {
+        "question": "The fraction 5/8 has what type of decimal expansion?",
+        "options": ["Terminating", "Non-terminating repeating", "Non-terminating non-repeating", "None"],
+        "correct_answer": "Terminating",
+        "reason": "5/8 has a terminating decimal expansion: 0.625."
+    },
+    {
+        "question": "What is the decimal expansion of 4/11?",
+        "options": ["0.36", "0.4545...", "0.4", "0.36..."],
+        "correct_answer": "0.36...",
+        "reason": "4/11 has a non-terminating, repeating decimal expansion: 0.363636..."
+    },
+    {
+        "question": "If the denominator of a rational number is of the form 2^m * 5^n, the decimal expansion is?",
+        "options": ["Terminating", "Non-terminating repeating", "Non-terminating non-repeating", "None"],
+        "correct_answer": "Terminating",
+        "reason": "A rational number with a denominator of the form 2^m * 5^n has a terminating decimal expansion."
+    },
+    {
+        "question": "Which of the following rational numbers has a non-terminating, repeating decimal expansion?",
+        "options": ["3/8", "7/25", "2/9", "5/4"],
+        "correct_answer": "2/9",
+        "reason": "2/9 has a non-terminating, repeating decimal expansion: 0.222..."
+    },
+    {
+        "question": "The fraction 7/25 is equivalent to which decimal?",
+        "options": ["0.28", "0.25", "0.35", "0.7"],
+        "correct_answer": "0.28",
+        "reason": "7/25 = 0.28"
+    },
+    {
+        "question": "Identify the decimal expansion of 1/6.",
+        "options": ["0.16...", "0.1666...", "0.166", "0.16"],
+        "correct_answer": "0.1666...",
+        "reason": "1/6 has a non-terminating, repeating decimal expansion: 0.1666..."
+    },
+    {
+        "question": "What is the decimal expansion of 1/8?",
+        "options": ["0.125", "0.2", "0.25", "0.3"],
+        "correct_answer": "0.125",
+        "reason": "1/8 has a terminating decimal expansion: 0.125."
+    },
+    {
+        "question": "Which of the following is a terminating decimal?",
+        "options": ["2/7", "3/4", "5/11", "7/9"],
+        "correct_answer": "3/4",
+        "reason": "3/4 has a terminating decimal expansion: 0.75."
+    },
+    {
+        "question": "The fraction 3/5 is equivalent to which decimal?",
+        "options": ["0.5", "0.6", "0.55", "0.65"],
+        "correct_answer": "0.6",
+        "reason": "3/5 = 0.6"
+    },
+    {
+        "question": "Identify the decimal expansion of 7/10.",
+        "options": ["0.7", "0.75", "0.77", "0.70"],
+        "correct_answer": "0.7",
+        "reason": "7/10 has a terminating decimal expansion: 0.7."
+    },
+    {
+        "question": "What is the decimal expansion of 9/12?",
+        "options": ["0.75", "0.7", "0.8", "0.6"],
+        "correct_answer": "0.75",
+        "reason": "9/12 simplifies to 3/4 which has a terminating decimal expansion: 0.75."
+    },
+    {
+        "question": "Which of the following fractions has a non-terminating, repeating decimal expansion?",
+        "options": ["1/2", "4/5", "1/3", "3/4"],
+        "correct_answer": "1/3",
+        "reason": "1/3 has a non-terminating, repeating decimal expansion: 0.333..."
+    },
+    {
+        "question": "The fraction 16/25 has what type of decimal expansion?",
+        "options": ["Terminating", "Non-terminating repeating", "Non-terminating non-repeating", "None"],
+        "correct_answer": "Terminating",
+        "reason": "16/25 has a terminating decimal expansion: 0.64."
+    },
+    {
+        "question": "What is the decimal expansion of 11/12?",
+        "options": ["0.916...", "0.92", "0.9", "0.95"],
+        "correct_answer": "0.916...",
+        "reason": "11/12 has a non-terminating, repeating decimal expansion: 0.91666..."
+    },
+    {
+        "question": "Which of the following rational numbers will have a terminating decimal form?",
+        "options": ["7/20", "3/7", "5/11", "4/9"],
+        "correct_answer": "7/20",
+        "reason": "7/20 has a terminating decimal expansion: 0.35."
+    },
+    {
+        "question": "The fraction 1/20 is equivalent to which decimal?",
+        "options": ["0.05", "0.025", "0.1", "0.2"],
+        "correct_answer": "0.05",
+        "reason": "1/20 = 0.05"
+    },
+    {
+        "question": "Identify the decimal expansion of 2/5.",
+        "options": ["0.4", "0.45", "0.5", "0.35"],
+        "correct_answer": "0.4",
+        "reason": "2/5 has a terminating decimal expansion: 0.4."
+    },
+    {
+        "question": "What is the decimal expansion of 3/7?",
+        "options": ["0.428...", "0.3", "0.5", "0.4"],
+        "correct_answer": "0.428...",
+        "reason": "3/7 has a non-terminating, repeating decimal expansion: 0.428571..."
+    },
+    {
+        "question": "Which of the following fractions has a non-terminating, repeating decimal expansion?",
+        "options": ["5/8", "7/12", "1/11", "3/5"],
+        "correct_answer": "1/11",
+        "reason": "1/11 has a non-terminating, repeating decimal expansion: 0.090909..."
+    },
+    {
+        "question": "The fraction 3/20 is equivalent to which decimal?",
+        "options": ["0.15", "0.125", "0.2", "0.25"],
+        "correct_answer": "0.15",
+        "reason": "3/20 = 0.15"
+    },
+    {
+        "question": "Identify the decimal expansion of 4/25.",
+        "options": ["0.16", "0.2", "0.15", "0.125"],
+        "correct_answer": "0.16",
+        "reason": "4/25 has a terminating decimal expansion: 0.16."
+    },
+    {
+        "question": "What is the decimal expansion of 5/6?",
+        "options": ["0.83...", "0.75", "0.8", "0.85"],
+        "correct_answer": "0.83...",
+        "reason": "5/6 has a non-terminating, repeating decimal expansion: 0.833..."
+    },
+    {
+        "question": "Which of the following rational numbers will have a terminating decimal form?",
+        "options": ["3/10", "7/15", "4/11", "5/13"],
+        "correct_answer": "3/10",
+        "reason": "3/10 has a terminating decimal expansion: 0.3."
+    },
+    {
+        "question": "The fraction 6/25 is equivalent to which decimal?",
+        "options": ["0.24", "0.25", "0.22", "0.26"],
+        "correct_answer": "0.24",
+        "reason": "6/25 = 0.24"
+    },
+    {
+        "question": "Identify the decimal expansion of 7/8.",
+        "options": ["0.875", "0.85", "0.9", "0.95"],
+        "correct_answer": "0.875",
+        "reason": "7/8 has a terminating decimal expansion: 0.875."
+    },
+    {
+        "question": "What is the decimal expansion of 9/11?",
+        "options": ["0.818...", "0.81", "0.8", "0.82"],
+        "correct_answer": "0.818...",
+        "reason": "9/11 has a non-terminating, repeating decimal expansion: 0.818181..."
+    },
+    {
+        "question": "Which of the following fractions has a terminating decimal expansion?",
+        "options": ["4/9", "5/12", "7/25", "3/7"],
+        "correct_answer": "7/25",
+        "reason": "7/25 has a terminating decimal expansion: 0.28."
+    }
+]
