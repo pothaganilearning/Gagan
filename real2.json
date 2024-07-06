@@ -1,0 +1,332 @@
+[
+    {
+        "question": "What does the Fundamental Theorem of Arithmetic state?",
+        "options": [
+            "Every composite number can be expressed as a product of primes.",
+            "Every prime number can be expressed as a product of composite numbers.",
+            "Every even number can be expressed as a sum of prime numbers.",
+            "Every odd number can be expressed as a sum of even numbers."
+        ],
+        "correct_answer": "Every composite number can be expressed as a product of primes.",
+        "reason": "The theorem states that every composite number can be factorized uniquely as a product of primes."
+    },
+    {
+        "question": "What is the prime factorization of 24?",
+        "options": [
+            "2 × 12",
+            "8 × 3",
+            "2 × 2 × 2 × 3",
+            "4 × 6"
+        ],
+        "correct_answer": "2 × 2 × 2 × 3",
+        "reason": "The prime factorization of 24 is 2 × 2 × 2 × 3."
+    },
+    {
+        "question": "What are the prime factors of 27300?",
+        "options": [
+            "2, 3, 5, 7, 13",
+            "2, 2, 3, 5, 5, 7, 13",
+            "2^2, 3, 5^2, 7, 13",
+            "2, 3, 5, 7, 11"
+        ],
+        "correct_answer": "2^2, 3, 5^2, 7, 13",
+        "reason": "The prime factorization of 27300 is 2^2 × 3 × 5^2 × 7 × 13."
+    },
+    {
+        "question": "Which of the following statements is true about the factorization of composite numbers?",
+        "options": [
+            "It is unique, apart from the order in which the prime factors occur.",
+            "It is not unique and can vary.",
+            "It can only be done for even numbers.",
+            "It can only be done for odd numbers."
+        ],
+        "correct_answer": "It is unique, apart from the order in which the prime factors occur.",
+        "reason": "The fundamental theorem states that the factorization of composite numbers is unique, apart from the order of the prime factors."
+    },
+    {
+        "question": "What is the prime factorization of 210?",
+        "options": [
+            "2 × 3 × 5 × 7",
+            "3 × 5 × 7 × 2",
+            "7 × 3 × 2 × 5",
+            "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "reason": "The prime factorization of 210 is unique, but the order of factors can vary."
+    },
+    {
+        "question": "Given a composite number x, how is it factorized according to the Fundamental Theorem of Arithmetic?",
+        "options": [
+            "x = p1 + p2 + ... + pn",
+            "x = p1 - p2 - ... - pn",
+            "x = p1 × p2 × ... × pn",
+            "x = p1 / p2 / ... / pn"
+        ],
+        "correct_answer": "x = p1 × p2 × ... × pn",
+        "reason": "According to the theorem, x is factorized as a product of primes."
+    },
+    {
+        "question": "What is the relationship between a, b, and q in the equation a = bq + r if r = 0?",
+        "options": [
+            "a is a multiple of b",
+            "b is a multiple of a",
+            "a is a multiple of q",
+            "q is a multiple of b"
+        ],
+        "correct_answer": "a is a multiple of b",
+        "reason": "If r = 0, then a = bq, meaning a is a multiple of b."
+    },
+    {
+        "question": "Express 2310 as a product of prime factors.",
+        "options": [
+            "2 × 3 × 5 × 7 × 11",
+            "2 × 3 × 7 × 11",
+            "2 × 3 × 5 × 11",
+            "2 × 5 × 7 × 11"
+        ],
+        "correct_answer": "2 × 3 × 5 × 7 × 11",
+        "reason": "The prime factorization of 2310 is 2 × 3 × 5 × 7 × 11."
+    },
+    {
+        "question": "How can the number 4n (where n is a natural number) end with zero?",
+        "options": [
+            "If it is divisible by 2 and 3",
+            "If it is divisible by 2 and 5",
+            "If it is divisible by 3 and 5",
+            "It can never end with zero"
+        ],
+        "correct_answer": "It can never end with zero",
+        "reason": "4n is a power of 2 and does not contain the prime factor 5."
+    },
+    {
+        "question": "What is the HCF of 900 and 270 using Euclid's algorithm?",
+        "options": [
+            "30",
+            "45",
+            "60",
+            "90"
+        ],
+        "correct_answer": "90",
+        "reason": "The highest common factor (HCF) of 900 and 270 is 90."
+    },
+    {
+        "question": "What is the form of any positive odd integer according to the division algorithm?",
+        "options": [
+            "6q + 1",
+            "6q + 3",
+            "6q + 5",
+            "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "reason": "Any positive odd integer can be of the form 6q + 1, 6q + 3, or 6q + 5."
+    },
+    {
+        "question": "What is the form of the square of any positive integer?",
+        "options": [
+            "3p",
+            "3p + 1",
+            "3p + 2",
+            "3p or 3p + 1"
+        ],
+        "correct_answer": "3p or 3p + 1",
+        "reason": "The square of any positive integer can be of the form 3p or 3p + 1."
+    },
+    {
+        "question": "What is the form of the cube of any positive integer?",
+        "options": [
+            "9m",
+            "9m + 1",
+            "9m + 8",
+            "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "reason": "The cube of any positive integer can be of the form 9m, 9m + 1, or 9m + 8."
+    },
+    {
+        "question": "What is the relationship between a, b, and q in a = bq + r when r = 0?",
+        "options": [
+            "a is divisible by b",
+            "b is divisible by a",
+            "q is divisible by a",
+            "a is divisible by q"
+        ],
+        "correct_answer": "a is divisible by b",
+        "reason": "When r = 0, a = bq means that a is divisible by b."
+    },
+    {
+        "question": "How can a composite number be expressed according to the Fundamental Theorem of Arithmetic?",
+        "options": [
+            "As a product of primes",
+            "As a sum of primes",
+            "As a difference of primes",
+            "As a quotient of primes"
+        ],
+        "correct_answer": "As a product of primes",
+        "reason": "According to the theorem, a composite number can be expressed as a product of primes."
+    },
+    {
+        "question": "What is the prime factorization of 36?",
+        "options": [
+            "2 × 2 × 3 × 3",
+            "6 × 6",
+            "2 × 3 × 3",
+            "3 × 3 × 4"
+        ],
+        "correct_answer": "2 × 2 × 3 × 3",
+        "reason": "The prime factorization of 36 is 2 × 2 × 3 × 3."
+    },
+    {
+        "question": "Which of the following numbers is a prime number?",
+        "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "correct_answer": "2",
+        "reason": "2 is the only even prime number."
+    },
+    {
+        "question": "Which of the following numbers is not a prime number?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct_answer": "4",
+        "reason": "4 is not a prime number as it can be factorized as 2 × 2."
+    },
+    {
+        "question": "What is the prime factorization of 49?",
+        "options": [
+            "7 × 7",
+            "7 × 8",
+            "6 × 7",
+            "5 × 9"
+        ],
+        "correct_answer": "7 × 7",
+        "reason": "The prime factorization of 49 is 7 × 7."
+    },
+    {
+        "question": "What is the form of any positive even integer?",
+        "options": [
+            "2q",
+            "2q + 1",
+            "2q + 2",
+            "2q + 3"
+        ],
+        "correct_answer": "2q",
+        "reason": "Any positive even integer can be expressed in the form 2q."
+    },
+    {
+        "question": "What is the form of any positive odd integer?",
+        "options": [
+            "2q",
+            "2q + 1",
+            "2q + 2",
+            "2q + 3"
+        ],
+        "correct_answer": "2q + 1",
+        "reason": "Any positive odd integer can be expressed in the form 2q + 1."
+    },
+    {
+        "question": "What is the least prime number?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correct_answer": "2",
+        "reason": "2 is the smallest prime number."
+    },
+    {
+        "question": "What is the prime factorization of 100?",
+        "options": [
+            "2 × 2 × 5 × 5",
+            "10 × 10",
+            "2 × 5 × 5",
+            "5 × 5 × 4"
+        ],
+        "correct_answer": "2 × 2 × 5 × 5",
+        "reason": "The prime factorization of 100 is 2 × 2 × 5 × 5."
+    },
+    {
+        "question": "If a = 56 and b = 8, what is q in the equation a = bq + r if r = 0?",
+        "options": [
+            "7",
+            "6",
+            "8",
+            "9"
+        ],
+        "correct_answer": "7",
+        "reason": "If a = 56 and b = 8, then q = 56 / 8 = 7."
+    },
+    {
+        "question": "What is the prime factorization of 60?",
+        "options": [
+            "2 × 2 × 3 × 5",
+            "10 × 6",
+            "2 × 3 × 5",
+            "5 × 12"
+        ],
+        "correct_answer": "2 × 2 × 3 × 5",
+        "reason": "The prime factorization of 60 is 2 × 2 × 3 × 5."
+    },
+    {
+        "question": "What is the prime factorization of 84?",
+        "options": [
+            "2 × 2 × 3 × 7",
+            "8 × 10",
+            "2 × 3 × 7",
+            "3 × 7 × 4"
+        ],
+        "correct_answer": "2 × 2 × 3 × 7",
+        "reason": "The prime factorization of 84 is 2 × 2 × 3 × 7."
+    },
+    {
+        "question": "What is the prime factorization of 121?",
+        "options": [
+            "11 × 11",
+            "12 × 10",
+            "11 × 10",
+            "11 × 12"
+        ],
+        "correct_answer": "11 × 11",
+        "reason": "The prime factorization of 121 is 11 × 11."
+    },
+    {
+        "question": "What is the prime factorization of 144?",
+        "options": [
+            "2 × 2 × 2 × 2 × 3 × 3",
+            "12 × 12",
+            "2 × 3 × 3",
+            "3 × 3 × 4"
+        ],
+        "correct_answer": "2 × 2 × 2 × 2 × 3 × 3",
+        "reason": "The prime factorization of 144 is 2 × 2 × 2 × 2 × 3 × 3."
+    },
+    {
+        "question": "What is the prime factorization of 169?",
+        "options": [
+            "13 × 13",
+            "13 × 12",
+            "13 × 10",
+            "13 × 11"
+        ],
+        "correct_answer": "13 × 13",
+        "reason": "The prime factorization of 169 is 13 × 13."
+    },
+    {
+        "question": "Which number is a composite number?",
+        "options": [
+            "4",
+            "7",
+            "11",
+            "13"
+        ],
+        "correct_answer": "4",
+        "reason": "4 is a composite number as it has factors other than 1 and itself."
+    }
+]
