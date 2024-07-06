@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What is an irrational number?",
+        "options": ["A number that can be written as a fraction", "A number that cannot be written as a fraction", "A number that is an integer", "A number that is a repeating decimal"],
+        "correct_answer": "A number that cannot be written as a fraction",
+        "reason": "An irrational number cannot be expressed as a ratio of two integers."
+    },
+    {
+        "question": "Which of the following is an example of an irrational number?",
+        "options": ["2/3", "√2", "4/5", "0.75"],
+        "correct_answer": "√2",
+        "reason": "√2 is a non-repeating, non-terminating decimal, hence it is irrational."
+    },
+    {
+        "question": "What is the decimal representation of an irrational number?",
+        "options": ["Terminating", "Repeating", "Non-terminating and non-repeating", "Integer"],
+        "correct_answer": "Non-terminating and non-repeating",
+        "reason": "Irrational numbers have decimal expansions that do not terminate or repeat."
+    },
+    {
+        "question": "Which of the following is NOT an irrational number?",
+        "options": ["π", "e", "1.414213...", "3.14"],
+        "correct_answer": "3.14",
+        "reason": "3.14 is a rational approximation of π, but not an irrational number."
+    },
+    {
+        "question": "True or False: The sum of two irrational numbers is always irrational.",
+        "options": ["True", "False"],
+        "correct_answer": "False",
+        "reason": "The sum of two irrational numbers can be rational. For example, (√2 + -√2) = 0."
+    },
+    {
+        "question": "Which theorem is used to prove the irrationality of √2?",
+        "options": ["Fundamental Theorem of Arithmetic", "Pythagorean Theorem", "Euclidean Algorithm", "Binomial Theorem"],
+        "correct_answer": "Fundamental Theorem of Arithmetic",
+        "reason": "The Fundamental Theorem of Arithmetic is used in the proof of the irrationality of √2."
+    },
+    {
+        "question": "What method is commonly used to prove a number is irrational?",
+        "options": ["Direct proof", "Contradiction", "Induction", "Constructive proof"],
+        "correct_answer": "Contradiction",
+        "reason": "Proof by contradiction is often used to show a number is irrational."
+    },
+    {
+        "question": "If p is a prime number, which statement is true?",
+        "options": ["p is always even", "p is always irrational", "If p divides a^2, then p divides a", "p is a perfect square"],
+        "correct_answer": "If p divides a^2, then p divides a",
+        "reason": "This statement is part of the Fundamental Theorem of Arithmetic."
+    },
+    {
+        "question": "Prove that √3 is irrational. What is the first step?",
+        "options": ["Assume √3 is rational", "Assume √3 is irrational", "Find the prime factors of 3", "Square both sides"],
+        "correct_answer": "Assume √3 is rational",
+        "reason": "Proof by contradiction starts by assuming the opposite of what you want to prove."
+    },
+    {
+        "question": "If √2 = a/b for co-prime integers a and b, what can be inferred?",
+        "options": ["a is even", "b is odd", "a^2 is even", "b^2 is odd"],
+        "correct_answer": "a^2 is even",
+        "reason": "Since a^2 = 2b^2, a^2 must be even, implying a is even."
+    },
+    {
+        "question": "What does it mean if a number can be expressed as p/q where p and q are integers and q≠0?",
+        "options": ["The number is rational", "The number is irrational", "The number is a prime", "The number is an integer"],
+        "correct_answer": "The number is rational",
+        "reason": "A rational number can be expressed as the ratio of two integers."
+    },
+    {
+        "question": "True or False: π is an irrational number.",
+        "options": ["True", "False"],
+        "correct_answer": "True",
+        "reason": "π is a non-terminating, non-repeating decimal."
+    },
+    {
+        "question": "Which property is NOT true for irrational numbers?",
+        "options": ["Non-terminating decimal", "Repeating decimal", "Cannot be expressed as a fraction", "Sum with a rational number is irrational"],
+        "correct_answer": "Repeating decimal",
+        "reason": "Repeating decimals can be expressed as fractions and are rational."
+    },
+    {
+        "question": "True or False: The product of a non-zero rational number and an irrational number is irrational.",
+        "options": ["True", "False"],
+        "correct_answer": "True",
+        "reason": "The product of a non-zero rational number and an irrational number remains irrational."
+    },
+    {
+        "question": "Which number is an example of an irrational number?",
+        "options": ["22/7", "1.414213...", "0.333...", "7/8"],
+        "correct_answer": "1.414213...",
+        "reason": "1.414213... is the non-terminating, non-repeating decimal representation of √2."
+    },
+    {
+        "question": "What is the main difference between rational and irrational numbers?",
+        "options": ["Rational numbers can be integers", "Irrational numbers are always negative", "Rational numbers have repeating decimals", "Irrational numbers have non-repeating decimals"],
+        "correct_answer": "Irrational numbers have non-repeating decimals",
+        "reason": "The key feature of irrational numbers is their non-repeating, non-terminating decimal expansion."
+    },
+    {
+        "question": "True or False: The quotient of two irrational numbers is always irrational.",
+        "options": ["True", "False"],
+        "correct_answer": "False",
+        "reason": "The quotient of two irrational numbers can be rational, e.g., (√2/√2) = 1."
+    },
+    {
+        "question": "If 2 + √3 = a/b where a and b are integers and b≠0, what is the nature of a and b?",
+        "options": ["Both are even", "Both are odd", "They are co-prime", "a is multiple of b"],
+        "correct_answer": "They are co-prime",
+        "reason": "In proofs involving irrational numbers and fractions, we assume a and b are co-prime."
+    },
+    {
+        "question": "Which statement is true about the sum of a rational number and an irrational number?",
+        "options": ["Always rational", "Always irrational", "Can be either", "Depends on the numbers"],
+        "correct_answer": "Always irrational",
+        "reason": "The sum of a rational number and an irrational number is always irrational."
+    },
+    {
+        "question": "Which of the following is not an example of an irrational number?",
+        "options": ["√7", "0.101101110...", "π", "4/9"],
+        "correct_answer": "4/9",
+        "reason": "4/9 is a rational number because it can be expressed as a fraction of integers."
+    },
+    {
+        "question": "How do you classify the number 0.333...?",
+        "options": ["Rational", "Irrational", "Prime", "Composite"],
+        "correct_answer": "Rational",
+        "reason": "0.333... is a repeating decimal and can be expressed as 1/3."
+    },
+    {
+        "question": "True or False: Every non-terminating decimal is irrational.",
+        "options": ["True", "False"],
+        "correct_answer": "False",
+        "reason": "Non-terminating repeating decimals are rational."
+    },
+    {
+        "question": "What is the result of squaring an irrational number?",
+        "options": ["Always irrational", "Always rational", "Can be either", "Depends on the number"],
+        "correct_answer": "Can be either",
+        "reason": "For example, (√2)^2 = 2 (rational), but (π)^2 is irrational."
+    },
+    {
+        "question": "Which of the following proves that √2 is irrational?",
+        "options": ["√2 can be written as 2/1", "√2 is a repeating decimal", "√2 cannot be expressed as a ratio of integers", "√2 is an integer"],
+        "correct_answer": "√2 cannot be expressed as a ratio of integers",
+        "reason": "An irrational number cannot be expressed as a ratio of two integers."
+    },
+    {
+        "question": "If √p is irrational, what can be inferred about p?",
+        "options": ["p is a composite number", "p is a prime number", "p is an even number", "p is a rational number"],
+        "correct_answer": "p is a prime number",
+        "reason": "√p is irrational when p is a prime number."
+    },
+    {
+        "question": "True or False: The square root of any prime number is irrational.",
+        "options": ["True", "False"],
+        "correct_answer": "True",
+        "reason": "The square root of a prime number cannot be expressed as a fraction."
+    },
+    {
+        "question": "Which statement about rational and irrational numbers is correct?",
+        "options": ["Their sum is always rational", "Their product is always irrational", "Their sum is always irrational", "Their product can be either rational or irrational"],
+        "correct_answer": "Their product can be either rational or irrational",
+        "reason": "Depending on the numbers involved, the product can be either."
+    },
+    {
+        "question": "How do you classify the number e?",
+        "options": ["Rational", "Irrational", "Prime", "Composite"],
+        "correct_answer": "Irrational",
+        "reason": "e (Euler's number) is an irrational number."
+    },
+    {
+        "question": "True or False: If a number has a non-terminating, repeating decimal expansion, it is rational.",
+        "options": ["True", "False"],
+        "correct_answer": "True",
+        "reason": "Non-terminating, repeating decimals can be expressed as fractions."
+    },
+    {
+        "question": "What does the Fundamental Theorem of Arithmetic state?",
+        "options": ["Every integer greater than 1 is either a prime or a product of primes", "Every number is irrational", "Every number can be written as a fraction", "Every prime number is even"],
+        "correct_answer": "Every integer greater than 1 is either a prime or a product of primes",
+        "reason": "The Fundamental Theorem of Arithmetic states that every integer greater than 1 can be uniquely expressed as a product of primes."
+    }
+]
