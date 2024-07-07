@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What is the symbolic representation of a chemical change called?",
+        "options": ["Chemical Equation", "Physical Change", "Chemical Symbol", "Reaction Formula"],
+        "correct_answer": "Chemical Equation",
+        "reason": "A chemical equation is the symbolic representation of a chemical change."
+    },
+    {
+        "question": "What does a balanced chemical equation explain?",
+        "options": ["Reactants, products, and their physical states", "Only reactants", "Only products", "Physical changes"],
+        "correct_answer": "Reactants, products, and their physical states",
+        "reason": "A balanced chemical equation explains reactants, products, and their physical states during the reaction."
+    },
+    {
+        "question": "Why should a chemical equation be balanced?",
+        "options": ["To follow the Law of Conservation of Mass", "To make it simpler", "To change the reactants", "To change the products"],
+        "correct_answer": "To follow the Law of Conservation of Mass",
+        "reason": "A chemical equation should always be balanced according to the Law of Conservation of Mass."
+    },
+    {
+        "question": "What are endothermic reactions?",
+        "options": ["Reactions that absorb heat", "Reactions that evolve heat", "Reactions that change color", "Reactions that produce light"],
+        "correct_answer": "Reactions that absorb heat",
+        "reason": "Endothermic reactions are chemical reactions in which heat is absorbed."
+    },
+    {
+        "question": "What are exothermic reactions?",
+        "options": ["Reactions that evolve heat", "Reactions that absorb heat", "Reactions that change color", "Reactions that produce gas"],
+        "correct_answer": "Reactions that evolve heat",
+        "reason": "Exothermic reactions are chemical reactions in which heat is evolved."
+    },
+    {
+        "question": "What is a primary or skeleton equation?",
+        "options": ["An unbalanced chemical equation", "A balanced chemical equation", "A physical change equation", "A thermal equation"],
+        "correct_answer": "An unbalanced chemical equation",
+        "reason": "A primary or skeleton equation is a chemical equation containing simply symbols of elements and molecular formulae of the substances without balancing."
+    },
+    {
+        "question": "What should be altered while balancing a chemical equation?",
+        "options": ["Coefficients", "Symbols of elements", "Formulae of compounds", "Physical states"],
+        "correct_answer": "Coefficients",
+        "reason": "The symbols of elements and formulae of compounds should not be changed, but only their coefficients should be altered while balancing the chemical equation."
+    },
+    {
+        "question": "What should the coefficients in a balanced chemical equation be?",
+        "options": ["Least possible whole numbers", "Decimal numbers", "Negative numbers", "Large numbers"],
+        "correct_answer": "Least possible whole numbers",
+        "reason": "Coefficients in a balanced chemical equation should be the least possible whole numbers."
+    },
+    {
+        "question": "What information does a balanced chemical equation provide?",
+        "options": ["Reactants, products, and physical states", "Only reactants", "Only products", "Only physical states"],
+        "correct_answer": "Reactants, products, and physical states",
+        "reason": "A balanced chemical equation provides information about reactants, products, and their physical states during the reaction."
+    },
+    {
+        "question": "What is the molar mass of water (H2O)?",
+        "options": ["18 g/mol", "16 g/mol", "20 g/mol", "10 g/mol"],
+        "correct_answer": "18 g/mol",
+        "reason": "The molar mass of water (H2O) is 18 g/mol (2 g/mol for H + 16 g/mol for O)."
+    },
+    {
+        "question": "What is Avogadro's number?",
+        "options": ["6.022 x 10^23", "3.014 x 10^22", "5.098 x 10^24", "4.056 x 10^23"],
+        "correct_answer": "6.022 x 10^23",
+        "reason": "Avogadro's number is 6.022 x 10^23, which is the number of atoms or molecules in one mole of a substance."
+    },
+    {
+        "question": "What is the gram molar volume of a gas at STP?",
+        "options": ["22.4 liters", "20 liters", "18.5 liters", "25 liters"],
+        "correct_answer": "22.4 liters",
+        "reason": "The gram molar volume of a gas at standard temperature and pressure (STP) is 22.4 liters."
+    },
+    {
+        "question": "Balance the equation: Calcium hydroxide (s) + Nitric acid (aq) → Water (l) + Calcium Nitrate (aq).",
+        "options": ["Ca(OH)2 + 2HNO3 → 2H2O + Ca(NO3)2", "Ca(OH)2 + HNO3 → H2O + Ca(NO3)2", "Ca(OH) + 2HNO3 → H2O + Ca(NO3)2", "Ca(OH)2 + 3HNO3 → H2O + Ca(NO3)2"],
+        "correct_answer": "Ca(OH)2 + 2HNO3 → 2H2O + Ca(NO3)2",
+        "reason": "The balanced equation is Ca(OH)2 + 2HNO3 → 2H2O + Ca(NO3)2."
+    },
+    {
+        "question": "What are the physical states of Magnesium and Iodine in the reaction: Magnesium (s) + Iodine (s) → Magnesium Iodide (s)?",
+        "options": ["Solid, Solid, Solid", "Liquid, Solid, Solid", "Gas, Solid, Solid", "Solid, Liquid, Solid"],
+        "correct_answer": "Solid, Solid, Solid",
+        "reason": "The physical states of Magnesium, Iodine, and Magnesium Iodide in the reaction are all solid."
+    },
+    {
+        "question": "Write the balanced chemical equation for: Sodium Hydroxide reacts with Hydrochloric acid to form Sodium Chloride and Water.",
+        "options": ["NaOH + HCl → NaCl + H2O", "NaOH + HCl → NaCl2 + H2O", "Na + HCl → NaCl + H2O", "NaOH + H2Cl → NaCl + H2O"],
+        "correct_answer": "NaOH + HCl → NaCl + H2O",
+        "reason": "The balanced chemical equation is NaOH + HCl → NaCl + H2O."
+    },
+    {
+        "question": "Calculate the moles of copper obtained when 2 moles of Zinc react with a cupric chloride solution containing 6.023x10^22 formula units of CuCl2.",
+        "options": ["0.1 moles", "1 mole", "2 moles", "0.5 moles"],
+        "correct_answer": "0.1 moles",
+        "reason": "From the stoichiometry of the reaction, 1 mole of Zinc reacts with 1 mole of CuCl2, so 2 moles of Zinc react with 2 moles of CuCl2. However, with only 6.023x10^22 formula units (0.1 moles), the amount of copper obtained is 0.1 moles."
+    },
+    {
+        "question": "Calculate the heat liberated when 2.4 liters of propane (C3H8) combust at STP, given 1 mole of propane gives 'A' kilojoules of heat energy.",
+        "options": ["A/10 kilojoules", "A kilojoules", "2A kilojoules", "A/5 kilojoules"],
+        "correct_answer": "A/10 kilojoules",
+        "reason": "At STP, 1 mole of any gas occupies 22.4 liters. 2.4 liters of propane is 0.1 moles. Therefore, the heat liberated is (A/10) kilojoules."
+    },
+    {
+        "question": "Calculate the mass of oxygen required at STP to convert 2.4 kg of graphite into carbon dioxide.",
+        "options": ["6.4 kg", "4.8 kg", "3.2 kg", "7.2 kg"],
+        "correct_answer": "6.4 kg",
+        "reason": "The balanced equation for the combustion of graphite (C) is C + O2 → CO2. The molar mass of carbon is 12 g/mol, so 2.4 kg (2400 g) of graphite is 200 moles of carbon. Each mole of carbon requires 1 mole of oxygen (32 g/mol), so 200 moles of oxygen is 6400 g (6.4 kg)."
+    },
+    {
+        "question": "What is the atomic mass of Hydrogen?",
+        "options": ["1 g/mol", "2 g/mol", "12 g/mol", "16 g/mol"],
+        "correct_answer": "1 g/mol",
+        "reason": "The atomic mass of Hydrogen is 1 g/mol."
+    },
+    {
+        "question": "What is the physical state of water in a balanced chemical equation?",
+        "options": ["Liquid", "Solid", "Gas", "Plasma"],
+        "correct_answer": "Liquid",
+        "reason": "The physical state of water in most chemical reactions is liquid (l)."
+    },
+    {
+        "question": "Why is the Law of Conservation of Mass important in chemical reactions?",
+        "options": ["It ensures mass is neither created nor destroyed", "It changes reactants into products", "It provides energy", "It alters physical states"],
+        "correct_answer": "It ensures mass is neither created nor destroyed",
+        "reason": "The Law of Conservation of Mass states that mass is neither created nor destroyed in a chemical reaction, which is why equations must be balanced."
+    },
+    {
+        "question": "What is the unit formula for molar mass?",
+        "options": ["g/mol", "kg/mol", "mol/L", "g/L"],
+        "correct_answer": "g/mol",
+        "reason": "The unit formula for molar mass is grams per mole (g/mol)."
+    },
+    {
+        "question": "How many molecules are in 1 mole of a substance?",
+        "options": ["6.022 x 10^23", "3.014 x 10^22", "1.008 x 10^24", "4.056 x 10^23"],
+        "correct_answer": "6.022 x 10^23",
+        "reason": "1 mole of a substance contains 6.022 x 10^23 molecules, known as Avogadro's number."
+    },
+    {
+        "question": "What happens in a precipitation reaction?",
+        "options": ["A solid forms from two solutions", "Heat is absorbed", "Heat is released", "A gas is produced"],
+        "correct_answer": "A solid forms from two solutions",
+        "reason": "In a precipitation reaction, a solid (precipitate) forms when two solutions are mixed."
+    },
+    {
+        "question": "What does the coefficient in a chemical equation represent?",
+        "options": ["The number of molecules or moles", "The atomic number", "The molecular mass", "The physical state"],
+        "correct_answer": "The number of molecules or moles",
+        "reason": "The coefficient in a chemical equation represents the number of molecules or moles of a substance involved in the reaction."
+    },
+    {
+        "question": "What is the balanced chemical equation for the reaction: Barium Chloride reacts with Sodium Sulphate to form Barium Sulphate and Sodium Chloride?",
+        "options": ["BaCl2 + Na2SO4 → BaSO4 + 2NaCl", "BaCl + NaSO4 → BaSO4 + NaCl", "BaCl2 + Na2SO4 → BaSO4 + NaCl", "BaCl2 + Na2SO4 → BaSO4 + Na2Cl2"],
+        "correct_answer": "BaCl2 + Na2SO4 → BaSO4 + 2NaCl",
+        "reason": "The balanced equation is BaCl2 + Na2SO4 → BaSO4 + 2NaCl."
+    },
+    {
+        "question": "What is the standard temperature and pressure (STP) condition?",
+        "options": ["0°C and 1 atm", "25°C and 1 atm", "100°C and 1 atm", "0°C and 2 atm"],
+        "correct_answer": "0°C and 1 atm",
+        "reason": "Standard temperature and pressure (STP) is defined as 0°C (273 K) and 1 atm pressure."
+    },
+    {
+        "question": "What is the atomic mass of Oxygen?",
+        "options": ["16 g/mol", "14 g/mol", "12 g/mol", "18 g/mol"],
+        "correct_answer": "16 g/mol",
+        "reason": "The atomic mass of Oxygen is 16 g/mol."
+    },
+    {
+        "question": "What type of reaction is NaOH + HCl → NaCl + H2O?",
+        "options": ["Neutralization", "Precipitation", "Combustion", "Decomposition"],
+        "correct_answer": "Neutralization",
+        "reason": "The reaction between NaOH and HCl to form NaCl and H2O is a neutralization reaction."
+    },
+    {
+        "question": "What is the product when magnesium reacts with iodine?",
+        "options": ["Magnesium iodide", "Magnesium oxide", "Magnesium chloride", "Magnesium sulfate"],
+        "correct_answer": "Magnesium iodide",
+        "reason": "When magnesium reacts with iodine, the product is magnesium iodide (MgI2)."
+    }
+]
