@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What is the exponential form of 100?",
+        "options": ["10^2", "10^3", "10^1", "10^0"],
+        "correct_answer": "10^2",
+        "reason": "100 can be written as 10 raised to the power of 2."
+    },
+    {
+        "question": "What is the logarithmic form of 2^3 = 8?",
+        "options": ["log_2(8) = 3", "log_8(2) = 3", "log_3(8) = 2", "log_3(2) = 8"],
+        "correct_answer": "log_2(8) = 3",
+        "reason": "The logarithmic form of 2^3 = 8 is log_2(8) = 3."
+    },
+    {
+        "question": "What is the value of 2^0?",
+        "options": ["0", "1", "2", "-1"],
+        "correct_answer": "1",
+        "reason": "Any number raised to the power of 0 is 1."
+    },
+    {
+        "question": "What is the value of log_10(1)?",
+        "options": ["0", "1", "10", "100"],
+        "correct_answer": "0",
+        "reason": "The logarithm of 1 to any base is 0."
+    },
+    {
+        "question": "What is the value of log_10(10)?",
+        "options": ["0", "1", "10", "100"],
+        "correct_answer": "1",
+        "reason": "The logarithm of 10 to the base 10 is 1."
+    },
+    {
+        "question": "What is the logarithmic form of 5^2 = 25?",
+        "options": ["log_5(25) = 2", "log_25(5) = 2", "log_2(25) = 5", "log_2(5) = 25"],
+        "correct_answer": "log_5(25) = 2",
+        "reason": "The logarithmic form of 5^2 = 25 is log_5(25) = 2."
+    },
+    {
+        "question": "What is the product rule of logarithms?",
+        "options": ["log_b(MN) = log_b(M) + log_b(N)", "log_b(M/N) = log_b(M) - log_b(N)", "log_b(M^n) = n log_b(M)", "log_b(M) = N"],
+        "correct_answer": "log_b(MN) = log_b(M) + log_b(N)",
+        "reason": "The product rule states that the logarithm of a product is the sum of the logarithms."
+    },
+    {
+        "question": "What is the quotient rule of logarithms?",
+        "options": ["log_b(MN) = log_b(M) + log_b(N)", "log_b(M/N) = log_b(M) - log_b(N)", "log_b(M^n) = n log_b(M)", "log_b(M) = N"],
+        "correct_answer": "log_b(M/N) = log_b(M) - log_b(N)",
+        "reason": "The quotient rule states that the logarithm of a quotient is the difference of the logarithms."
+    },
+    {
+        "question": "What is the power rule of logarithms?",
+        "options": ["log_b(MN) = log_b(M) + log_b(N)", "log_b(M/N) = log_b(M) - log_b(N)", "log_b(M^n) = n log_b(M)", "log_b(M) = N"],
+        "correct_answer": "log_b(M^n) = n log_b(M)",
+        "reason": "The power rule states that the logarithm of a power is the exponent times the logarithm."
+    },
+    {
+        "question": "Convert the exponential form 10^3 to logarithmic form.",
+        "options": ["log_10(1000) = 3", "log_10(3) = 1000", "log_3(10) = 1000", "log_1000(10) = 3"],
+        "correct_answer": "log_10(1000) = 3",
+        "reason": "10^3 can be written in logarithmic form as log_10(1000) = 3."
+    },
+    {
+        "question": "What is log_2(16)?",
+        "options": ["4", "2", "8", "16"],
+        "correct_answer": "4",
+        "reason": "2^4 = 16, so log_2(16) = 4."
+    },
+    {
+        "question": "What is log_3(27)?",
+        "options": ["3", "9", "27", "1"],
+        "correct_answer": "3",
+        "reason": "3^3 = 27, so log_3(27) = 3."
+    },
+    {
+        "question": "What is the value of log_5(1)?",
+        "options": ["0", "1", "5", "25"],
+        "correct_answer": "0",
+        "reason": "The logarithm of 1 to any base is 0."
+    },
+    {
+        "question": "Simplify the expression log_2(8) using the properties of logarithms.",
+        "options": ["3", "2", "4", "8"],
+        "correct_answer": "3",
+        "reason": "2^3 = 8, so log_2(8) = 3."
+    },
+    {
+        "question": "If log_b(2) = 0.301 and log_b(3) = 0.477, what is log_b(6)?",
+        "options": ["0.778", "0.301", "0.477", "1.0"],
+        "correct_answer": "0.778",
+        "reason": "log_b(6) = log_b(2) + log_b(3) = 0.301 + 0.477 = 0.778."
+    },
+    {
+        "question": "What is the value of log_4(64)?",
+        "options": ["3/2", "2", "1", "4"],
+        "correct_answer": "3/2",
+        "reason": "4^(3/2) = 64, so log_4(64) = 3/2."
+    },
+    {
+        "question": "Which of the following represents the property log_b(MN) = log_b(M) + log_b(N)?",
+        "options": ["Product Rule", "Quotient Rule", "Power Rule", "None of the above"],
+        "correct_answer": "Product Rule",
+        "reason": "The product rule states that the logarithm of a product is the sum of the logarithms."
+    },
+    {
+        "question": "What is the value of log_2(32)?",
+        "options": ["5", "4", "2", "16"],
+        "correct_answer": "5",
+        "reason": "2^5 = 32, so log_2(32) = 5."
+    },
+    {
+        "question": "Simplify log_3(9) using the properties of logarithms.",
+        "options": ["2", "3", "9", "1"],
+        "correct_answer": "2",
+        "reason": "3^2 = 9, so log_3(9) = 2."
+    },
+    {
+        "question": "Using the quotient rule, what is log_b(8/2)?",
+        "options": ["log_b(8) - log_b(2)", "log_b(8) + log_b(2)", "log_b(8) * log_b(2)", "log_b(8) / log_b(2)"],
+        "correct_answer": "log_b(8) - log_b(2)",
+        "reason": "The quotient rule states that log_b(8/2) = log_b(8) - log_b(2)."
+    },
+    {
+        "question": "If log_2(3) = x, how can we express log_2(9)?",
+        "options": ["2x", "x^2", "x+2", "x/2"],
+        "correct_answer": "2x",
+        "reason": "log_2(9) = log_2(3^2) = 2 log_2(3) = 2x."
+    },
+    {
+        "question": "What is the value of log_10(0.01)?",
+        "options": ["-2", "2", "-1", "1"],
+        "correct_answer": "-2",
+        "reason": "10^-2 = 0.01, so log_10(0.01) = -2."
+    },
+    {
+        "question": "If log_2(5) = y, how can we express log_2(25)?",
+        "options": ["2y", "y^2", "y+2", "y/2"],
+        "correct_answer": "2y",
+        "reason": "log_2(25) = log_2(5^2) = 2 log_2(5) = 2y."
+    },
+    {
+        "question": "Using the power rule, what is log_b(16^2)?",
+        "options": ["2 log_b(16)", "log_b(16) + log_b(2)", "log_b(16) - log_b(2)", "log_b(16) / log_b(2)"],
+        "correct_answer": "2 log_b(16)",
+        "reason": "The power rule states that log_b(16^2) = 2 log_b(16)."
+    },
+    {
+        "question": "What is log_5(125)?",
+        "options": ["3", "5", "25", "2"],
+        "correct_answer": "3",
+        "reason": "5^3 = 125, so log_5(125) = 3."
+    },
+    {
+        "question": "Simplify log_4(1/16) using the properties of logarithms.",
+        "options": ["-2", "2", "4", "-1"],
+        "correct_answer": "-2",
+        "reason": "4^-2 = 1/16, so log_4(1/16) = -2."
+    },
+    {
+        "question": "If log_b(7) = a and log_b(5) = b, what is log_b(35)?",
+        "options": ["a + b", "a - b", "a * b", "a / b"],
+        "correct_answer": "a + b",
+        "reason": "log_b(35) = log_b(7*5) = log_b(7) + log_b(5) = a + b."
+    },
+    {
+        "question": "What is the logarithmic form of 3^4 = 81?",
+        "options": ["log_3(81) = 4", "log_4(81) = 3", "log_3(4) = 81", "log_81(3) = 4"],
+        "correct_answer": "log_3(81) = 4",
+        "reason": "The logarithmic form of 3^4 = 81 is log_3(81) = 4."
+    },
+    {
+        "question": "What is the value of log_6(36)?",
+        "options": ["2", "3", "6", "36"],
+        "correct_answer": "2",
+        "reason": "6^2 = 36, so log_6(36) = 2."
+    },
+    {
+        "question": "Using the product rule, what is log_b(2) + log_b(3)?",
+        "options": ["log_b(6)", "log_b(5)", "log_b(2/3)", "log_b(3/2)"],
+        "correct_answer": "log_b(6)",
+        "reason": "The product rule states that log_b(2) + log_b(3) = log_b(2*3) = log_b(6)."
+    }
+]
