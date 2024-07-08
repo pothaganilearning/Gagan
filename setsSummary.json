@@ -197,7 +197,7 @@
         "correct_answer": "Two sets with a null intersection",
         "reason": "Disjoint sets have no elements in common, i.e., their intersection is a null set."
     },
-[
+
     {
         "question": "What does the set builder form describe?",
         "options": [
