@@ -1,0 +1,311 @@
+[
+    {
+        "question": "What is a set?",
+        "options": [
+            "A collection of well-defined objects",
+            "A single element",
+            "An empty collection",
+            "A collection of numbers"
+        ],
+        "correct_answer": "A collection of well-defined objects",
+        "reason": "A set is defined as a collection of well-defined objects."
+    },
+    {
+        "question": "What is the roster form of a set?",
+        "options": [
+            "Listing all elements enclosed in brackets {}",
+            "Describing elements by a common property",
+            "A set containing no elements",
+            "A set containing one element"
+        ],
+        "correct_answer": "Listing all elements enclosed in brackets {}",
+        "reason": "The roster form lists all the elements of a set enclosed in brackets {}."
+    },
+    {
+        "question": "Which of the following is an example of a finite set?",
+        "options": [
+            "Set of days in a week",
+            "Set of natural numbers",
+            "Set of real numbers",
+            "Set of all integers"
+        ],
+        "correct_answer": "Set of days in a week",
+        "reason": "A finite set contains a limited number of elements, like the set of days in a week."
+    },
+    {
+        "question": "What is the cardinal number of the set A = {a, b, c, d}?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "1"
+        ],
+        "correct_answer": "4",
+        "reason": "The cardinal number is the number of different elements in the set, which is 4 for set A = {a, b, c, d}."
+    },
+    {
+        "question": "If two sets A and B are equal, what can be said about their elements?",
+        "options": [
+            "They contain the same elements",
+            "They contain different elements",
+            "One is a subset of the other",
+            "They are both empty"
+        ],
+        "correct_answer": "They contain the same elements",
+        "reason": "Equal sets contain exactly the same elements."
+    },
+    {
+        "question": "What denotes a null set?",
+        "options": [
+            "Φ",
+            "{0}",
+            "{1}",
+            "A ∪ B"
+        ],
+        "correct_answer": "Φ",
+        "reason": "A null set, also known as an empty set, is denoted by Φ."
+    },
+    {
+        "question": "Which of the following is a singleton set?",
+        "options": [
+            "{2}",
+            "{1, 2}",
+            "{}",
+            "{0, 1, 2}"
+        ],
+        "correct_answer": "{2}",
+        "reason": "A singleton set contains only one element, such as {2}."
+    },
+    {
+        "question": "What is a proper subset?",
+        "options": [
+            "A set A where A ⊆ B and A ≠ B",
+            "A set A where A ⊆ B and A = B",
+            "A set containing no elements",
+            "A set containing only one element"
+        ],
+        "correct_answer": "A set A where A ⊆ B and A ≠ B",
+        "reason": "A proper subset is a subset that is not equal to the original set."
+    },
+    {
+        "question": "How many subsets does a set with n elements have?",
+        "options": [
+            "2^n",
+            "2^n - 2",
+            "n^2",
+            "n^2 - 2"
+        ],
+        "correct_answer": "2^n",
+        "reason": "A set with n elements has 2^n possible subsets."
+    },
+    {
+        "question": "What is the union of sets A and B?",
+        "options": [
+            "The set containing elements of A, B, or both",
+            "The set containing common elements of A and B",
+            "The set containing elements of A but not B",
+            "The set containing elements of B but not A"
+        ],
+        "correct_answer": "The set containing elements of A, B, or both",
+        "reason": "The union of sets A and B is the set containing elements of A, B, or both."
+    },
+    {
+        "question": "What is the intersection of sets A and B?",
+        "options": [
+            "The set containing common elements of A and B",
+            "The set containing elements of A, B, or both",
+            "The set containing elements of A but not B",
+            "The set containing elements of B but not A"
+        ],
+        "correct_answer": "The set containing common elements of A and B",
+        "reason": "The intersection of sets A and B is the set containing elements that are common to both."
+    },
+    {
+        "question": "If A ⊆ B then A ∪ B is:",
+        "options": [
+            "B",
+            "A",
+            "U",
+            "Φ"
+        ],
+        "correct_answer": "B",
+        "reason": "If A is a subset of B, then their union is B."
+    },
+    {
+        "question": "Which law states that A ∪ A = A and A ∩ A = A?",
+        "options": [
+            "Idempotent Law",
+            "Associative Law",
+            "Commutative Law",
+            "Distributive Law"
+        ],
+        "correct_answer": "Idempotent Law",
+        "reason": "The Idempotent Law states that A ∪ A = A and A ∩ A = A."
+    },
+    {
+        "question": "Which of the following is an important result for sets?",
+        "options": [
+            "If A ⊆ B then A ∪ B = B and A ∩ B = A",
+            "If A ∪ B = Φ then A = Φ and B = Φ",
+            "If A ∪ B = U then A = U and B = U",
+            "All of the above"
+        ],
+        "correct_answer": "All of the above",
+        "reason": "These are all important results related to set operations."
+    },
+    {
+        "question": "What is the Distributive Law for sets?",
+        "options": [
+            "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+            "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+            "Both a and b",
+            "None of the above"
+        ],
+        "correct_answer": "Both a and b",
+        "reason": "The Distributive Law for sets includes both A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) and A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)."
+    },
+    {
+        "question": "What is the result of n(A ∪ B)?",
+        "options": [
+            "n(A) + n(B) - n(A ∩ B)",
+            "n(A) + n(B) + n(A ∩ B)",
+            "n(A) - n(B)",
+            "n(A) + n(B)"
+        ],
+        "correct_answer": "n(A) + n(B) - n(A ∩ B)",
+        "reason": "The number of elements in the union of sets A and B is given by n(A ∪ B) = n(A) + n(B) - n(A ∩ B)."
+    },
+    {
+        "question": "What is the universal set?",
+        "options": [
+            "A set containing all subsets of a fixed set",
+            "A set containing no elements",
+            "A set containing one element",
+            "A set containing only even numbers"
+        ],
+        "correct_answer": "A set containing all subsets of a fixed set",
+        "reason": "The universal set contains all subsets of a fixed set and is denoted by μ or U."
+    },
+    {
+        "question": "What is a disjoint set?",
+        "options": [
+            "Two sets with a null intersection",
+            "Two sets with a non-null intersection",
+            "Two sets with equal elements",
+            "Two sets with no elements"
+        ],
+        "correct_answer": "Two sets with a null intersection",
+        "reason": "Disjoint sets have no elements in common, i.e., their intersection is a null set."
+    },
+[
+    {
+        "question": "What does the set builder form describe?",
+        "options": [
+            "Elements described by their common property",
+            "Elements listed in brackets {}",
+            "A set containing no elements",
+            "A set containing one element"
+        ],
+        "correct_answer": "Elements described by their common property",
+        "reason": "The set builder form describes elements by their common property."
+    },
+    {
+        "question": "Which set is an example of an infinite set?",
+        "options": [
+            "Set of natural numbers",
+            "Set of days in a week",
+            "Set of months in a year",
+            "Set of vowels in the alphabet"
+        ],
+        "correct_answer": "Set of natural numbers",
+        "reason": "An infinite set contains an uncountable number of elements, like the set of natural numbers."
+    },
+    {
+        "question": "What is an equivalent set?",
+        "options": [
+            "Two sets with the same number of elements",
+            "Two sets with different elements",
+            "Two sets that are empty",
+            "Two sets that are disjoint"
+        ],
+        "correct_answer": "Two sets with the same number of elements",
+        "reason": "Equivalent sets have the same number of elements."
+    },
+    {
+        "question": "How is a subset denoted?",
+        "options": [
+            "A ⊆ B",
+            "A ⊇ B",
+            "A ∪ B",
+            "A ∩ B"
+        ],
+        "correct_answer": "A ⊆ B",
+        "reason": "A subset is denoted as A ⊆ B, meaning every element of A is also in B."
+    },
+    {
+        "question": "What is a power set?",
+        "options": [
+            "The set of all subsets of a set",
+            "The set of all elements of a set",
+            "The set containing no elements",
+            "The set containing one element"
+        ],
+        "correct_answer": "The set of all subsets of a set",
+        "reason": "A power set is the set of all subsets of a set."
+    },
+    {
+        "question": "If A = {1, 2, 3} and B = {3, 4, 5}, what is A ∩ B?",
+        "options": [
+            "{3}",
+            "{1, 2, 3, 4, 5}",
+            "{}",
+            "{1, 2, 4, 5}"
+        ],
+        "correct_answer": "{3}",
+        "reason": "The intersection A ∩ B contains only the common elements, which is {3}."
+    },
+    {
+        "question": "If A = {1, 2, 3} and B = {3, 4, 5}, what is A ∪ B?",
+        "options": [
+            "{1, 2, 3, 4, 5}",
+            "{3}",
+            "{}",
+            "{1, 2}"
+        ],
+        "correct_answer": "{1, 2, 3, 4, 5}",
+        "reason": "The union A ∪ B contains all elements from both sets, which is {1, 2, 3, 4, 5}."
+    },
+    {
+        "question": "What is the complement of a set A?",
+        "options": [
+            "Elements not in A but in the universal set",
+            "Elements in A",
+            "Elements in A or B",
+            "Elements in A and B"
+        ],
+        "correct_answer": "Elements not in A but in the universal set",
+        "reason": "The complement of set A contains elements that are not in A but in the universal set."
+    },
+    {
+        "question": "What is the commutative law for union?",
+        "options": [
+            "A ∪ B = B ∪ A",
+            "A ∩ B = B ∩ A",
+            "A ⊆ B",
+            "A = B"
+        ],
+        "correct_answer": "A ∪ B = B ∪ A",
+        "reason": "The commutative law for union states that A ∪ B = B ∪ A."
+    },
+    {
+        "question": "What does the idempotent law state?",
+        "options": [
+            "A ∪ A = A and A ∩ A = A",
+            "A ∪ B = B ∪ A",
+            "A ∩ B = B ∩ A",
+            "A ∪ B = A ∩ B"
+        ],
+        "correct_answer": "A ∪ A = A and A ∩ A = A",
+        "reason": "The idempotent law states that A ∪ A = A and A ∩ A = A."
+    }
+]
