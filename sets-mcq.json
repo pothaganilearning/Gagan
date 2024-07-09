@@ -1,262 +1,158 @@
 [
     {
-        "question": "If A = {1,2,3,4,5} then n(A)=",
-        "options": ["2", "3", "4", "5"],
-        "correct_answer": "5",
-        "reason": "The cardinality of set A, denoted n(A), is the number of elements in set A."
-    },
-    {
-        "question": "If P = {1,2,5}, Q = {3,4,6}, R = {1,3,4,6}, S = {3,5,6}, then the universal set is",
-        "options": ["P", "n(A∪B∪C∪D)=n(A)+n(B)+n(C)+n(D)-n(A∩B)-n(A∩C)-n(A∩D)-n(B∩C)-n(B∩D)-n(C∩D)+n(A∩B∩C)+n(A∩B∩D)+n(A∩C∩D)+n(B∩C∩D)-n(A∩B∩C∩D)", "A ∪ B ∪ C ∪ D", "U"],
-        "correct_answer": "A ∪ B ∪ C ∪ D",
-        "reason": "The universal set is the union of all given sets, which contains all distinct elements from the sets."
-    },
-    {
-        "question": "If A = {5,6,7,8}, B = {7,8,9,10} then A ∩ B=",
-        "options": ["{7,8}", "{9,10}", "{5,6,7,8,9,10}", "∅"],
-        "correct_answer": "{7,8}",
-        "reason": "The intersection of sets A and B, denoted A ∩ B, contains only the elements that are in both sets."
-    },
-    {
-        "question": "The symbol of an empty set",
-        "options": ["∅", "μ", "⨀", "∩"],
-        "correct_answer": "∅",
-        "reason": "The symbol ∅ represents an empty set, which contains no elements."
-    },
-    {
-        "question": "If K = {1,2,3,5} then which is false",
-        "options": ["5 ∈ K", "5 ∉ K", "5 ⊆ K", "{1,5} ⊆ K"],
-        "correct_answer": "5 ∉ K",
-        "reason": "The statement '5 ∉ K' is false because 5 is an element of set K."
-    },
-    {
-        "question": "If n(A∪B)=14, n(A)=8, n(A∩B)=4 then n(B)=",
-        "options": ["18", "22", "10", "12"],
-        "correct_answer": "10",
-        "reason": "Using the principle of inclusion and exclusion: n(A∪B) = n(A) + n(B) - n(A∩B). So, n(B) = 14 - 8 + 4 = 10."
-    },
-    {
-        "question": "A ∪ ∅=",
-        "options": ["A", "μ", "∅", "can not decided"],
-        "correct_answer": "A",
-        "reason": "The union of any set A with the empty set ∅ is the set A itself."
-    },
-    {
-        "question": "If A and B are disjoint sets then which of the following is true",
-        "options": ["n(A ∪ B) = n(A) + n(B)", "A ∩ B = ∅", "A ⊆ B", "A ∪ B = n(A) - n(B)"],
-        "correct_answer": "A ∩ B = ∅",
-        "reason": "Disjoint sets have no elements in common, so their intersection is the empty set."
-    },
-
-    {
         "question": "The set formed by the letters of the word SCHOOL",
         "options": ["{C,H,S,O,L}", "{S,C,H,O,L}", "{S,O,L,H,C}", "All the above"],
-        "correct_answer": "{S,C,H,O,L}",
-        "reason": "The set should contain each unique letter from the word SCHOOL."
+        "correct_answer": "All the above",
+        "reason": "All the options represent the set of unique letters in SCHOOL."
     },
     {
         "question": "If A = {2,4,6,8,10} then which is not denoted by A",
-        "options": ["{x : x = 2n, n ∈ N & n ≤ 5}", "{x : x = 2n, n ∈ N & 1 ≤ n ≤ 5}", "{x : x = n, n ∈ N & 1 < n < 5}", "{x : x = n, n ∈ N & n < 5}"],
-        "correct_answer": "{x : x = n, n ∈ N & 1 < n < 5}",
-        "reason": "This set includes elements from 2 to 4, which is not the same as A."
+        "options": ["{x : x = 2n, n ∈ N & n ≤ 5}", "{x : x = 2n, n ∈ N & 1 ≤ n ≤ 5}", "{x : x = 2n, n ∈ N & 1 < n < 5}"],
+        "correct_answer": "{x : x = 2n, n ∈ N & 1 < n < 5}",
+        "reason": "A includes the elements 2, 4, 6, 8, 10, and the correct set notation is {x : x = 2n, n ∈ N & n ≤ 5} or {x : x = 2n, n ∈ N & 1 ≤ n ≤ 5}."
     },
     {
-        "question": "If A = {1,2,3,5} then n(A)=",
+        "question": "If A = {1,2,3,5} then n(A) =",
         "options": ["2", "3", "4", "5"],
         "correct_answer": "4",
-        "reason": "The cardinality of set A, denoted n(A), is the number of elements in set A."
+        "reason": "The set A contains 4 elements."
     },
     {
-        "question": "n(∅)=",
-        "options": ["1", "2", "can not decided", "0"],
+        "question": "n(φ) =",
+        "options": ["2", "1", "0", "cannot be decided"],
         "correct_answer": "0",
-        "reason": "The empty set contains no elements, so its cardinality is 0."
+        "reason": "The null set φ contains no elements, so its cardinality is 0."
     },
     {
-        "question": "If A = {6,7,8,9,10}, B = {8,9,10}, C = {a,b} then",
-        "options": ["n(A)∩n(B) = n(A) + n(B) + n(C)", "n(A) = n(B) - n(C)", "n(A) = n(B) / n(C)", "n(B) < n(C)"],
-        "correct_answer": "n(B) < n(C)",
-        "reason": "This statement is false because set B has fewer elements than set C."
+        "question": "If A = {6,7,8,9,10}, B = {8,9,10}, C = {a,b} then A ∩ (B ∪ C) =",
+        "options": ["{a,b}", "φ", "{8,9,10}", "none"],
+        "correct_answer": "{8,9,10}",
+        "reason": "B ∪ C = {8,9,10,a,b}, and A ∩ (B ∪ C) = {8,9,10}."
     },
     {
-        "question": "If B = {x : x + 7 = 7} then n(B)=",
-        "options": ["3", "2", "1", "0"],
-        "correct_answer": "0",
-        "reason": "The set B is empty because there is no x such that x + 7 = 7."
+        "question": "If A = {x : x + 7 = 7} then n(B) =",
+        "options": ["{a}", "φ", "{1}", "0"],
+        "correct_answer": "φ",
+        "reason": "There are no values of x that satisfy the equation x + 7 = 7 other than 0, which makes n(B) = φ."
     },
     {
-        "question": "If A ⊆ B then A ∪ B=",
-        "options": ["∅", "μ", "A", "B"],
+        "question": "If A ⊆ B then A ∪ B =",
+        "options": ["φ", "µ", "A", "B"],
         "correct_answer": "B",
-        "reason": "The union of A and B, where A is a subset of B, is B."
+        "reason": "If A is a subset of B, then the union of A and B is B."
     },
     {
-        "question": "If A ⊆ B then A ∩ B=",
-        "options": ["∅", "μ", "A", "B"],
+        "question": "If A ⊆ B then A ∩ B =",
+        "options": ["φ", "µ", "A", "B"],
         "correct_answer": "A",
-        "reason": "The intersection of A and B, where A is a subset of B, is A."
+        "reason": "If A is a subset of B, then the intersection of A and B is A."
     },
     {
         "question": "The symbol of a universal set is",
-        "options": ["∅", "μ", "∪", "∩"],
-        "correct_answer": "μ",
-        "reason": "The universal set, typically denoted by μ, contains all elements under consideration."
+        "options": ["φ", "µ", "∪", "∩"],
+        "correct_answer": "µ",
+        "reason": "The universal set is typically denoted by µ or U."
     },
     {
         "question": "If A = {1,2,3,4,5} then the number of subsets of A is",
         "options": ["16", "32", "4", "64"],
         "correct_answer": "32",
-        "reason": "The number of subsets of a set with n elements is 2^n. Here, 2^5 = 32."
+        "reason": "A set with n elements has 2^n subsets. Here n = 5, so there are 2^5 = 32 subsets."
     },
     {
-        "question": "If P = {1,5}, Q = {2,4,6}, R = {1,2,3,4,5,6}, S = {3,5,6} then the universal set is",
+        "question": "If P = {1,5}, Q = {2,4,6}, R = {1,2,3,4,5,6}, S = {3,5,6} then universal set is",
         "options": ["P", "Q", "R", "S"],
         "correct_answer": "R",
-        "reason": "The universal set is the set that contains all elements from the given sets."
+        "reason": "The universal set contains all elements present in any of the given sets."
     },
     {
-        "question": "If A = {5,6,7,8}, B = {7,8,9,10} then A ∩ B=",
-        "options": ["{8,10}", "{9,10}", "{5,6,7,8,9,10}", "∅"],
+        "question": "If A = {5,6,7,8}, B = {7,8,9,10} then A ∩ B =",
+        "options": ["{8,9,10}", "{9,10}", "{5,6,7,8,9,10}", "φ"],
         "correct_answer": "{7,8}",
-        "reason": "The intersection of sets A and B contains only the elements that are in both sets."
+        "reason": "The intersection of A and B is the set of elements common to both sets."
     },
     {
-        "question": "The disjoint set of A − B is",
+        "question": "The disjoint set of A - B is",
         "options": ["A ∩ B", "A ∪ B", "B - A", "All the above"],
-        "correct_answer": "A ∩ B",
-        "reason": "The disjoint set is the set containing elements that are in both sets."
+        "correct_answer": "A ∪ B",
+        "reason": "A disjoint set means two sets have no elements in common."
     },
     {
-        "question": "A ∪ ∅=",
-        "options": ["∅", "μ", "A", "A ∩ ∅"],
+        "question": "A ∪ φ =",
+        "options": ["φ", "µ", "A", "A ∩ φ"],
         "correct_answer": "A",
-        "reason": "The union of any set A with the empty set ∅ is the set A itself."
+        "reason": "The union of any set with the null set is the set itself."
     },
     {
-        "question": "If A = {1,2,3,4,5}, B = {4,5,6,7} then A − B=",
-        "options": ["{2,3}", "{1,5}", "{1,2,3}", "{6,7}"],
+        "question": "If A = {1,2,3,4,5}, B = {4,5,6,7} then A - B =",
+        "options": ["{2,3}", "{1,2,3}", "{6}", "{4,5}"],
         "correct_answer": "{1,2,3}",
-        "reason": "The set difference A - B contains elements that are in A but not in B."
+        "reason": "The difference A - B is the set of elements in A that are not in B."
     },
     {
-        "question": "If A = {3,4,5,6,7}, B = {1,6,7,8,9} then n(A − B)=",
-        "options": ["3", "4", "2", "1"],
+        "question": "If A = {3,4,5,6,7}, B = {1,6,7,8,9} then n(A ∩ B) =",
+        "options": ["4", "5", "3", "2"],
         "correct_answer": "2",
-        "reason": "The set difference A - B contains elements 3, 4, 5, so the cardinality is 3."
+        "reason": "The intersection of A and B contains two elements: 6 and 7."
     },
     {
-        "question": "If n(A) = 5, n(B) = 4, n(A ∩ B) = 3 then n(A ∪ B)=",
+        "question": "If n(A) = 5, n(B) = 4, n(A ∩ B) = 3 then n(A ∪ B) =",
         "options": ["9", "7", "2", "6"],
         "correct_answer": "6",
-        "reason": "Using the principle of inclusion and exclusion: n(A ∪ B) = n(A) + n(B) - n(A ∩ B). So, n(A ∪ B) = 5 + 4 - 3 = 6."
-    },
-
-    {
-        "question": "If A ∪ B = ∅ then which of the following is true",
-        "options": ["A, B are disjoint sets", "A ≠ ∅ & B = ∅", "A = ∅ & B ≠ ∅", "All the above"],
-        "correct_answer": "A, B are disjoint sets",
-        "reason": "The union of two sets being empty means both sets are disjoint."
+        "reason": "Using the formula n(A ∪ B) = n(A) + n(B) - n(A ∩ B)."
     },
     {
-        "question": "If A ∩ B = ∅ then which of the following is true",
-        "options": ["A, B are disjoint sets", "A ≠ ∅ & B = ∅", "A = ∅ & B ≠ ∅", "All the above"],
+        "question": "If A ∪ B = φ then which of the following is true",
+        "options": ["A, B are disjoint sets", "A ≠ φ & B ≠ φ", "A = φ & B ≠ φ", "All the above"],
         "correct_answer": "A, B are disjoint sets",
-        "reason": "The intersection of two sets being empty means both sets are disjoint."
+        "reason": "If A and B have no elements in common, they are disjoint sets."
+    },
+    {
+        "question": "If A ∩ B = φ then which of the following is true",
+        "options": ["A, B are disjoint sets", "A ≠ φ & B ≠ φ", "A = φ & B ≠ φ", "All the above"],
+        "correct_answer": "All the above",
+        "reason": "If A and B have no elements in common, they are disjoint sets."
     },
     {
         "question": "The symbol for an element belongs to the set is",
-        "options": ["∅", "∈", "∩", "α"],
+        "options": ["φ", "∈", "∪", "α"],
         "correct_answer": "∈",
-        "reason": "The symbol '∈' denotes that an element belongs to a set."
+        "reason": "The symbol '∈' denotes membership of an element in a set."
     },
     {
         "question": "The symbol of universal set is",
-        "options": ["∅", "μ", "∪", "∩"],
-        "correct_answer": "μ",
-        "reason": "The universal set is typically denoted by 'μ' and contains all elements under consideration."
+        "options": ["φ", "µ", "∪", "∩"],
+        "correct_answer": "µ",
+        "reason": "The universal set is typically denoted by µ or U."
     },
     {
-        "question": "If A ⊂ B then",
-        "options": ["A = B", "B ⊂ A", "A = B", "A = B - ∅"],
-        "correct_answer": "A ⊂ B",
-        "reason": "A proper subset A of B means A is contained in B and A is not equal to B."
+        "question": "If A = B then A ∩ B =",
+        "options": ["A ∪ B", "A ∩ B", "A = B", "A = B = φ"],
+        "correct_answer": "A ∩ B",
+        "reason": "If A and B are the same set, their intersection is the set itself."
     },
     {
-        "question": "If A is an infinite set then n(A)=",
-        "options": ["∞", "1", "2", "can not decided"],
+        "question": "If A is an infinite set then n(A) =",
+        "options": ["∞", "0", "1", "cannot be decided"],
         "correct_answer": "∞",
-        "reason": "The cardinality of an infinite set is infinite."
+        "reason": "An infinite set has an uncountable number of elements."
     },
     {
-        "question": "If n(A) = 5, n(B) = 7 & A ⊂ B then n(A ∪ B)=",
-        "options": ["7", "5", "12", "14"],
+        "question": "If n(A) = 5, n(B) = 7 & A ⊆ B then n(A ∪ B) =",
+        "options": ["5", "7", "8", "12"],
         "correct_answer": "7",
-        "reason": "Since A is a subset of B, A ∪ B is just B, which has 7 elements."
+        "reason": "Since A is a subset of B, the union of A and B has the same number of elements as B."
     },
     {
-        "question": "If n(A) = 4, n(B) = 9 & A ⊂ B then n(A ∩ B)=",
-        "options": ["5", "4", "9", "13"],
-        "correct_answer": "4",
-        "reason": "Since A is a subset of B, A ∩ B is just A, which has 4 elements."
-    },
-    {
-        "question": "If n(A) = 3, n(B) = 5 & A, B are disjoint sets then n(A ∩ B)=",
-        "options": ["5", "3", "0", "8"],
-        "correct_answer": "0",
-        "reason": "Since A and B are disjoint, their intersection is empty."
-    },
-    {
-        "question": "If n(A) = 3, n(B) = 6 & A, B are disjoint sets then n(A ∪ B)=",
-        "options": ["3", "6", "9", "0"],
-        "correct_answer": "9",
-        "reason": "The union of two disjoint sets has the sum of the cardinalities of the individual sets."
-    },
-    {
-        "question": "If A ⊂ B & B ⊂ A then which of the following is true",
-        "options": ["A = C ⊂ A ∩ C", "C ⊂ B", "A = B", "A ⊂ C"],
-        "correct_answer": "A = B",
-        "reason": "If A is a subset of B and B is a subset of A, then A and B are equal."
-    },
-    {
-        "question": "If A = {Natural numbers}, B = {Prime numbers} then A ∩ B=",
-        "options": ["∅", "{B}", "A ∪ B", "{C}"],
-        "correct_answer": "{B}",
-        "reason": "The intersection of natural numbers and prime numbers is the set of prime numbers."
-    },
-    {
-        "question": "If A = { Even natural numbers }, B = { Prime numbers } then A ∩ B=",
-        "options": ["{2}", "{B}", "{3,5,7,11,...}", "∅"],
+        "question": "If A = {1,2,3}, B = {2,4,6} then A ∩ B =",
+        "options": ["{1}", "{2}", "{1,2}", "{3}"],
         "correct_answer": "{2}",
-        "reason": "The only even prime number is 2."
+        "reason": "The intersection of A and B contains the element 2."
     },
     {
-        "question": "The symbol for an element doesn't belong to the set is",
-        "options": ["∅", "∈", "∩", "∉"],
-        "correct_answer": "∉",
-        "reason": "The symbol '∉' denotes that an element does not belong to a set."
-    },
-    {
-        "question": "The roster form of { x : x ∈ N and 0 < x < 5 } is",
-        "options": ["{1,2,3,4,5}", "{0,1,2,3,4}", "{0,1,2,3,4,5}", "{0,1,2,3,4}"],
-        "correct_answer": "{1,2,3,4}",
-        "reason": "The set of natural numbers between 0 and 5 is {1,2,3,4}."
-    },
-    {
-        "question": "A = { x : x is a letter of the word ASSOCIATION }, B = { x : x is a letter of the word ASSOCIATE } then A - B =",
-        "options": ["{A,S,O,C,I,T,N}", "{A,S,O,C,I,T,E}", "{N}", "{E}"],
-        "correct_answer": "{N}",
-        "reason": "The letter 'N' is present in 'ASSOCIATION' but not in 'ASSOCIATE'."
-    },
-    {
-        "question": "A = { x : x is a letter of the word ASSISTANCE }, B = { x : x is a letter of the word ASSISTANT } then",
-        "options": ["A ∪ B = B", "A ∪ B = ∅", "A ∩ B = ∅", "A ⊂ B"],
-        "correct_answer": "A ∪ B = B",
-        "reason": "The union of the sets of letters in 'ASSISTANCE' and 'ASSISTANT' is the set of letters in 'ASSISTANT'."
-    },
-    {
-        "question": "The roster form of the letters of the word BETTER is",
-        "options": ["{B,E,T,R}", "{B,E}", "{B,E,R}", "{B,E,T}"],
-        "correct_answer": "{B,E,T,R}",
-        "reason": "The set should contain each unique letter from the word 'BETTER'."
+        "question": "The number of subsets of the empty set is",
+        "options": ["1", "2", "0", "∞"],
+        "correct_answer": "1",
+        "reason": "The empty set has exactly one subset, which is the empty set itself."
     }
 ]
